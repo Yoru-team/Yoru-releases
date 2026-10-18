@@ -1,44 +1,44 @@
 {
-  "version": "1.2.3",
+  "version": "1.2.4",
   "channel": "stable",
-  "date": "2026-10-16",
-  "notes": "Menos avisos repetidos\n- Sem pilha de avisos iguais: O aviso \"Anexos antigos foram removidos da nuvem\" aparece no máximo uma vez por dia, e um aviso igual a outro que ainda está na tela não se repete.",
+  "date": "2026-10-18",
+  "notes": "Mais privacidade\n- Conexão por IP mais discreta: Na conexão direta por IP, o seu nome e a sua chave agora vão cifrados. Quem olha a rede não descobre quem está ligando para quem.\n- Chaves guardadas no cofre: As chaves de GIF e a senha do servidor TURN que você digitou nas Configurações agora ficam cifradas pelo cofre do sistema.\n- Menos pedidos de desconhecidos: Quem não é seu amigo pode mandar no máximo 10 pedidos de amizade por hora, e uma rajada deles vira um aviso só.\n- Nuvem dividida por igual: Cada pessoa tem um limite de mensagens e anexos guardados na nuvem do Yoru. Ninguém consegue mais lotar o espaço de todo mundo.\n- Badges não somem mais: Com a versão online ligada, cada sincronização apagava as badges e os avisos guardados no aparelho. Agora elas ficam, e uma badge nova chega também aos seus outros aparelhos, levada pelos seus amigos.\n- Botão Colar na chave de acesso: Ao entrar com a chave de acesso, o botão Colar preenche o campo, que agora cresce junto com a chave.\n- Badges de apoiador: Quem apoia o Yoru ganha uma estrela dourada ao lado do nome. Nos níveis Lua e Constelação, vem também um anel lilás na foto e o nome em degradê.\n- Celular mais fácil de usar: No celular, Conversas, Avisos e Você ficam numa barra embaixo, as Configurações abrem em tela cheia e salvam sozinhas, e o Voltar fecha menus e painéis.\n- Listas no visual do Yoru: Os menus de escolha e os controles deslizantes das Configurações seguem o visual do app, sem a lista branca do Windows.\n- Abertura na hora certa: Quando o Yoru abre escondido junto com o computador, a abertura espera você abrir a janela, em vez de tocar a música sem ninguém ver.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.3\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.2.3-arm64.dmg\",\"size\":153199281,\"sha256\":\"a3f7e91915d85153261fc92e621454df24d6ac7c7954a53d4db3c0185553f9f7\",\"notes\":\"Menos avisos repetidos\",\"createdAt\":1792191106734}",
-        "signature": "T0jOzDdCAs/tpJU2nuaSIQsfn/oPIRXN/8Yv9hFo8uYc39ACg//8J6esx6dw8NwccPg3IG/mGo5OmjUQO3Z+Bw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.4\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.2.4-arm64.dmg\",\"size\":153204540,\"sha256\":\"a36cf4c2757679007c652ca6c7ca08bb200ff92e2fe7de69592839591f18e9c8\",\"notes\":\"Mais privacidade\",\"createdAt\":1792297841164}",
+        "signature": "Q17trDH0H99fwG5MEFoO34CWKMHq4vhW4WIJ/7UN0uX+GR7iFJxMu/Z6boTGaj1C+LTpHGh5EO+29mluT1XcDg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.3/Yoru-1.2.3-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.4/Yoru-1.2.4-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.3\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.2.3-x64.dmg\",\"size\":160048705,\"sha256\":\"720653aef2b2c8c0e0516d5976400d4d5bfd147db35d3b3bbeebdca67bfd6010\",\"notes\":\"Menos avisos repetidos\",\"createdAt\":1792191106562}",
-        "signature": "TGjOBEu4N0snnOyaNKBn9C739NspOTKzcSI5Xf8SlWetXzlFW3Zky0sxqRnL3yU0q7JaLf/RQIFctnA7qMKlBg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.4\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.2.4-x64.dmg\",\"size\":160046209,\"sha256\":\"a70acd5776f17fdd306b0d6171eca8b79a606ca256624c1bab9b96c7d39f7a66\",\"notes\":\"Mais privacidade\",\"createdAt\":1792297841011}",
+        "signature": "p2fBFduILRGJ5Z6vjVa+NkZvNLJd8/lu92oR1gKxl+U0uHoUds8wszZ+6kwY+vc+zfbADNvXn82HRez7BwwgBQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.3/Yoru-1.2.3-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.4/Yoru-1.2.4-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.3\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.2.3.AppImage\",\"size\":150587939,\"sha256\":\"241e54c8dd6c2259c6ad9e2cfc0a7b3c4e08fe9bfa29b71cc3a595bbe3c39cd9\",\"notes\":\"Menos avisos repetidos\",\"createdAt\":1792191033762}",
-        "signature": "BiRdaeOAb7kRYE6Lc8QiJFu7KQ0zQduVqB5dsa70VtKPj5EHh1iX41SyYbMnah5yGa+dICsWrSGMwUQSG6VOCA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.4\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.2.4.AppImage\",\"size\":150608374,\"sha256\":\"059ddc00a978bca0e26e41d5d17d272c73b844602fa5ee032d58f29bf6b2e595\",\"notes\":\"Mais privacidade\",\"createdAt\":1792297756224}",
+        "signature": "WzYQv0ePXaS570oIXwWCUAnayYKAG+Gr+1ycMrRX7I+dlkTyDli3lZJ5+d6TBTp0c36FN1YhZvQeb6DUPhpEDg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.3/Yoru-1.2.3.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.4/Yoru-1.2.4.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.3\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.2.3.exe\",\"size\":132173052,\"sha256\":\"7a3b35f7fd3b28c7fabe21d3e15b1f95506d1da77f10c2362777d8b252770778\",\"notes\":\"Menos avisos repetidos\",\"createdAt\":1792191132003}",
-        "signature": "olCGycFQFCa4MtjQgOK75idIT3rkxiSXBks5lW9KaZXek23Htal2B59T5Q5BJW+MZ+SBD7rim0bsGB7bTvKADQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.2.4\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.2.4.exe\",\"size\":132183340,\"sha256\":\"54c12421b2c369df0c9972bcd245d46d2d1d9f4ae81b9a27f1b5e299930cc8f4\",\"notes\":\"Mais privacidade\",\"createdAt\":1792297847961}",
+        "signature": "eE4Vw41ds6Ct1Ua3P57V37Tp9PeyK6MzieYLKuM5MWXIAbYL7HpPAZQEk0qcz7rf6pAEbnSwj3CpR5k6KEkwCA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.3/Yoru-Setup-1.2.3.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.4/Yoru-Setup-1.2.4.exe"
     }
   },
   "android": {
-    "version": "1.2.3",
-    "versionCode": 1020399,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.3/Yoru-1.2.3.apk",
-    "size": 12498331,
-    "sha256": "9fb31e4b4a83cefcfdd2d205448c248002a41041d6ff6dc24aa68198c23435d7"
+    "version": "1.2.4",
+    "versionCode": 1020499,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.2.4/Yoru-1.2.4.apk",
+    "size": 12506847,
+    "sha256": "8f9e83e3db667dcd0d25e3861533b98a1fed5db9a378502472f3f217443481cd"
   },
   "web": {
     "url": "https://yoru-call.web.app"
