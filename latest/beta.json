@@ -1,44 +1,44 @@
 {
-  "version": "1.3.0-beta.1",
+  "version": "1.3.0-beta.2",
   "channel": "beta",
-  "date": "2026-10-19",
-  "notes": "Yoru repaginado\n- Visual novo: A paleta Noite é a nova padrão, os títulos ganharam letra nova e a Lilás e a Aurora (modo claro) foram renovadas. O status tem forma além da cor, e quem não tem foto ganha o símbolo da Yoru.\n- Grupos numa linha só: Os grupos ficam numa linha à esquerda. Cada grupo abre a própria barra com canais e salas de voz, e o início mostra só as conversas diretas.\n- Página de Amigos: Online, Todos, Pedidos e Bloqueados (com Desbloquear) num lugar só, com o seu bilhete de ID e os avisos oficiais no topo.\n- Perfil editado no próprio cartão: Mude o perfil vendo o cartão do jeito que seus amigos veem e salve tudo de uma vez. Agora dá para pôr pronomes, e eles vão também para os seus outros aparelhos.\n- Configurações mais fáceis de achar: As Configurações ficaram em três grupos (Você, Chamadas e App) e ganharam uma busca.\n- Resumo da chamada: No fim da chamada aparece um resumo. Num grupo, quem sai por último manda o resumo para a conversa, para quem não estava saber o que aconteceu.\n- A chamada toca na hora: No celular e no site, o toque começa assim que alguém liga. No Android, aparece um aviso com Atender e Recusar mesmo com o app no fundo e, com o celular bloqueado, a chamada abre em tela cheia.\n- Ordem da lista do seu jeito: Escolha entre as conversas mais recentes, as mais frequentes ou a sua ordem. Para a sua ordem, é só arrastar a conversa (no celular, segure e arraste).\n- Badges em mais lugares: As badges agora aparecem também na chamada e no seu próprio perfil.\n- Música na sua atividade: No Windows, seus amigos veem a música que você está ouvindo num app de música.\n- Janela do seu jeito: A janela abre maximizada na primeira vez e depois como você deixou. Iniciar com o computador vem ligado (dá para desligar nas Configurações), e o Yoru espera na bandeja.\n- Mais correções: O desbloqueio no Android não fica mais girando em \"Desbloqueando…\", quando a nuvem recusa um envio o Yoru diz o motivo e guarda a mensagem na fila, e o botão Apoiar o Yoru leva ao Ko-fi.",
+  "date": "2026-10-24",
+  "notes": "Servidores de verdade\n- Servidores com canais, convites e moderação: Crie canais e categorias direto na coluna do servidor. Quem entra agora recebe um convite, com validade e número de usos, e o dono escolhe quem pode convidar. Na aba Membros dá para pôr de castigo, expulsar e banir. O servidor ganhou ícone e faixa.\n- Canais de voz viraram salas: Entrar num canal de voz não toca o telefone de ninguém. Use \"Chamar pessoas\" para avisar quem você quiser. Cada canal de voz tem o próprio chat.\n- Grupo pequeno de volta: Só as pessoas, o chat e uma sala de voz, direto na lista de conversas.\n- Agora o Yoru alcança todo mundo: O computador fica sempre ligado ao Yoru online: você vê quem usa o site e o celular, os pedidos de amizade chegam e as chamadas que não conseguem ligar direto passam por um servidor de repasse, sempre protegidas.\n- Mensagens com hora marcada: Agende uma mensagem, peça \"Me lembre disso\", mande uma carta noturna que só abre de manhã ou uma cápsula do tempo para o dia que escolher.\n- Visualização única: Pelo \"+\", mande texto, foto, vídeo ou áudio que some depois de aberto.\n- Conversa mais esperta: Encaminhe mensagens, veja o resumo do que você perdeu, use /dado, /moeda, /sorteio e /enquete, copie mensagens e procure na conversa com filtros. Mensagem editada ganhou um lápis no lugar do \"editada\".\n- Foco e checklist em grupo: Sessão de foco com pomodoro, com ou sem chamada, e salas de pomodoro nos servidores. A checklist compartilhada todo mundo marca, e fixada num canal vira as tarefas dele.\n- Do seu jeito: Escolha o ícone do app (Novo, Clássico ou Kuro Aurora), ajuste texto, zoom e densidade em Aparência e guarde servidores em pastas no trilho. A aba Privacidade junta quem vê seu status, recado e atividade.\n- Seus jogos na atividade: Em Configurações › Atividade, o Yoru lista os jogos do computador (Steam, Epic, GOG, Battle.net, Riot, Xbox, Ubisoft e EA) e você escolhe quais aparecem no perfil.\n- Céu de apoiador: Quem apoia o Yoru no Ko-fi ganha um céu no perfil: anel e lua na foto (Lua), a lua girando e uma estrela em órbita (Estrela), constelação viva na faixa e nome com brilho (Constelação). E chegou o Galáctico, um apoio único que nunca expira, com uma galáxia girando atrás da foto.\n- Mais correções: A confirmação de leitura marca a mensagem certa, menus não ficam mais cortados, a mensagem de voz começa a gravar na hora e dá para pausar, e o site beta mudou para beta.yoruapp.com.br.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.1\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.0-beta.1-arm64.dmg\",\"size\":153318634,\"sha256\":\"5614787891826d7b62ee87fd775b7278156be383e9c11d031a86770c2338a5fa\",\"notes\":\"Yoru repaginado\",\"createdAt\":1792450452552,\"channel\":\"beta\"}",
-        "signature": "eHa3nqVFlDKKTODrlR11a37Rx0qOyVtVBXkFDi14KvjYsMr6JuiRr8fgLsQRVOTpqEVVBHy94eQVLUX2AiwrDQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.2\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.0-beta.2-arm64.dmg\",\"size\":155288850,\"sha256\":\"3390a10036c5c86d02ccd8dd33dc94dcb980a10c2328be9053cd7d551213f22c\",\"notes\":\"Servidores de verdade\",\"createdAt\":1792847824830,\"channel\":\"beta\"}",
+        "signature": "U4+KKkXHDRIWgGsixiNkeuGWBoCztbBFAhLrqWTkJOmZdLxyTxjgh83nUDGaXsBYVE0nkcnrz3kaCS8wsvsdCw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.1/Yoru-1.3.0-beta.1-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.2/Yoru-1.3.0-beta.2-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.1\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.0-beta.1-x64.dmg\",\"size\":160164134,\"sha256\":\"883d8e9801060ad5fa0e3481c6b54ac60e19ebac13278f3be4d91ee1f5438d06\",\"notes\":\"Yoru repaginado\",\"createdAt\":1792450452165,\"channel\":\"beta\"}",
-        "signature": "HRhkNWQYOExO7rUVCv4Ec7K/4Iz62fk3Pwu1ib84HqiVZFcpYX+c+xpkPwV80cyb8zEUG7zBVtn0VEbXB6JpAQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.2\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.0-beta.2-x64.dmg\",\"size\":162124698,\"sha256\":\"d495e6de81c3f99768287f7ac482e00550ecd36432dc6ee6fe86f50ac0471d04\",\"notes\":\"Servidores de verdade\",\"createdAt\":1792847824599,\"channel\":\"beta\"}",
+        "signature": "PzvEdvJicRyyAS5z2nlfNxSpmybZnIvWhJxNWeGyLjoBHVROng2cMzmmdmwVys5Uv1dCMzlpgPc4M9SoxkGvDw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.1/Yoru-1.3.0-beta.1-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.2/Yoru-1.3.0-beta.2-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.1\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.0-beta.1.AppImage\",\"size\":150727365,\"sha256\":\"f1b96474afc2bf3a0e3a3b6636680c77e530b3c599a86399f9f2d20141ae1a36\",\"notes\":\"Yoru repaginado\",\"createdAt\":1792450332859,\"channel\":\"beta\"}",
-        "signature": "FXa+ZdEcOm/JebL8YEDDYqHM7t8UEi4tOGnwAwlCs4l7TXhFEE8BZDotX41RLbXUthghSs3HOhL7hHuGtWAcAw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.2\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.0-beta.2.AppImage\",\"size\":152531014,\"sha256\":\"d0829fad7b93cbfedfe4a82848a1901c11170771eecfa8901df4cfaa87fd3fc2\",\"notes\":\"Servidores de verdade\",\"createdAt\":1792847733574,\"channel\":\"beta\"}",
+        "signature": "HNtTdISa0vjAxVJNeNbh2QqNn9cuiMNvO1IB+yUNLIqpH+iM86ZXCzlqlpyTqPA0669Wdh31Y2BdK38qhi/+CQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.1/Yoru-1.3.0-beta.1.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.2/Yoru-1.3.0-beta.2.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.1\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.0-beta.1.exe\",\"size\":132287599,\"sha256\":\"e915a71a7823a27348b26005186248cfd1b7c0bf0b1d39721d9abc396140646a\",\"notes\":\"Yoru repaginado\",\"createdAt\":1792450424126,\"channel\":\"beta\"}",
-        "signature": "RskGuozdDa09yi8PH7wW6iD44t/OHha6ByXU/JifsKYer7xrFfASI+0V/SKTTmb7ipbEi2DjDH6YeZ3kdEPwAA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.2\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.0-beta.2.exe\",\"size\":133813370,\"sha256\":\"0518df329a7232a7dda855e1c1505be51f1fb0cfed13b5208a469bcbeee53612\",\"notes\":\"Servidores de verdade\",\"createdAt\":1792847822636,\"channel\":\"beta\"}",
+        "signature": "U/rSZboaKPovdgz+hFRAqJjsj7YgRbMRGQ/hGnrAoJebSJvqMyBXS2y6KZ3cvEhq4oql2cf7kTiN5o95aHomAw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.1/Yoru-Setup-1.3.0-beta.1.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.2/Yoru-Setup-1.3.0-beta.2.exe"
     }
   },
   "android": {
-    "version": "1.3.0-beta.1",
-    "versionCode": 1030001,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.1/Yoru-1.3.0-beta.1.apk",
-    "size": 12968555,
-    "sha256": "74dfeb3d8e758aa1c08913f450aeef903e377ca6febbc7defc1b99e770456481"
+    "version": "1.3.0-beta.2",
+    "versionCode": 1030002,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.2/Yoru-1.3.0-beta.2.apk",
+    "size": 13968282,
+    "sha256": "ed6ec0cf27d4acd5a581a3ec0c5a9b6908012b7fc514115e0ccd13c7f852e414"
   },
   "web": {
     "url": "https://yoru-call-beta.web.app"
