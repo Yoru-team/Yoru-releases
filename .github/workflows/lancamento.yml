@@ -7,8 +7,8 @@
 # Como lançar: aba Actions > "Lançamento" > Run workflow, informando a versão (igual à do package.json) e o branch.
 # Passo a passo e segredos: docs/lancamento-automatico.md no repositório do código.
 #
-# Ordem: verificar -> desktop (3 sistemas) + android -> publicar (release e índice) -> site (Cloudflare e/ou Firebase,
-# conforme os segredos cadastrados).
+# Ordem: verificar -> desktop (3 sistemas) + android -> publicar (release e índice) -> site (Cloudflare, se os segredos
+# estiverem cadastrados).
 # Se algo falhar antes de publicar, nada sai: ninguém recebe uma versão pela metade.
 #
 # Os registros (logs) deste repositório são públicos: nenhum passo imprime segredo, e os artefatos intermediários
@@ -48,7 +48,6 @@ jobs:
       commit: ${{ steps.commit.outputs.sha }}
       site: ${{ steps.site.outputs.publicar }}
       cloudflare: ${{ steps.site.outputs.cloudflare }}
-      firebase: ${{ steps.site.outputs.firebase }}
     steps:
       - name: Versão no formato certo
         run: |
@@ -68,28 +67,20 @@ jobs:
             [ -n "${!s}" ] || falta="$falta $s"
           done
           if [ -n "$falta" ]; then echo "::error::Segredos não cadastrados:$falta"; exit 1; fi
-      # o site é opcional: sem nenhum dos segredos, as outras 4 edições saem e o site fica para depois.
-      # Cloudflare (yoruapp.com.br, 2026-10+) é o endereço novo; o Firebase (yoru-call.web.app) continua recebendo o mesmo
-      # build enquanto o endereço antigo estiver no ar, e lá o próprio app mostra o aviso de mudança.
+      # o site é opcional: sem os segredos da Cloudflare, as outras 4 edições saem e o site fica para depois.
+      # O Firebase (yoru-call.web.app) saiu em 28/10: o código não tem mais o firebase.json (PR #30 do Yoru, economia da nuvem)
+      # e o Hosting vai ser desligado. O site fica só em yoruapp.com.br (beta em beta.yoruapp.com.br).
       - id: site
-        name: Site (Cloudflare e Firebase)
+        name: Site (Cloudflare)
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT || secrets.FIREBASE_SERVICE_ACCOUNT_YORU__APP }}
         run: |
-          cf=false; fb=false
+          cf=false
           if [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ]; then cf=true; fi
-          if [ -n "$FIREBASE_SERVICE_ACCOUNT" ]; then fb=true; fi
           echo "cloudflare=$cf" >> "$GITHUB_OUTPUT"
-          echo "firebase=$fb" >> "$GITHUB_OUTPUT"
-          if [ "$cf" = true ] || [ "$fb" = true ]; then
-            echo "publicar=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "publicar=false" >> "$GITHUB_OUTPUT"
-            echo "::warning::Sem os segredos da Cloudflare nem do Firebase: este lançamento não publica o site."
-          fi
-          [ "$cf" = true ] || echo "::warning::Sem CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID: o site não vai para yoruapp.com.br."
+          echo "publicar=$cf" >> "$GITHUB_OUTPUT"
+          [ "$cf" = true ] || echo "::warning::Sem CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID: este lançamento não publica o site."
       - name: Essa versão ainda não foi lançada
         env:
           GH_TOKEN: ${{ github.token }}
@@ -291,7 +282,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build:web
-      # versões do código sem o wrangler.jsonc (até a 1.3.0-beta.1) não sabem ir para a Cloudflare: só o Firebase
+      # versões do código sem o wrangler.jsonc (até a 1.3.0-beta.1) não sabem ir para a Cloudflare: relançadas, ficam sem site
       - name: Publicar na Cloudflare (beta vai para beta.yoruapp.com.br)
         if: needs.verificar.outputs.cloudflare == 'true' && hashFiles('wrangler.jsonc') != ''
         env:
@@ -302,15 +293,3 @@ jobs:
             *-beta.*) npx --yes wrangler@4.150.0 deploy --env beta ;;
             *) npx --yes wrangler@4.150.0 deploy ;;
           esac
-      - name: Publicar no Firebase (beta vai para o site beta)
-        if: needs.verificar.outputs.firebase == 'true'
-        env:
-          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT || secrets.FIREBASE_SERVICE_ACCOUNT_YORU__APP }}
-        run: |
-          echo "$FIREBASE_SERVICE_ACCOUNT" > "$RUNNER_TEMP/firebase.json"
-          export GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/firebase.json"
-          case "$VERSAO" in
-            *-beta.*) node -e "const f='firebase.json';const c=JSON.parse(require('fs').readFileSync(f));c.hosting.site='yoru-call-beta';require('fs').writeFileSync(f,JSON.stringify(c,null,2))" ;;
-          esac
-          npx --yes firebase-tools@15.31.0 deploy --only hosting --project yoru--app --non-interactive
-          rm -f "$RUNNER_TEMP/firebase.json"
