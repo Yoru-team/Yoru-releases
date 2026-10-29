@@ -1,44 +1,44 @@
 {
-  "version": "1.3.0-beta.6",
+  "version": "1.3.0-beta.7",
   "channel": "beta",
   "date": "2026-10-29",
-  "notes": "Mais segurança e atender com o celular bloqueado\n- Revisão de segurança: Corrigimos os pontos de uma revisão de segurança: filas e cotas com limite (ninguém consegue entupir o seu Yoru), grupos que não podem ser tomados nem congelados, microfone e câmera que desligam de verdade ao encerrar, e agendamentos guardados no cofre de cada conta.\n- Atender com o celular bloqueado: No Android, a chamada aparece por cima da tela de bloqueio e dá para atender sem desbloquear. Na primeira vez o Yoru pede a permissão de notificações em tela cheia, que o Android não dá sozinho.\n- Menos internet gasta: A presença e o histórico pela nuvem passam a ser conferidos com menos frequência, e uma mensagem com defeito não trava mais a sua caixa.\n- Arquivos e fotos mais firmes: Arquivos recebidos continuam salvos ao reabrir o site, a visualização única não apaga mais a mesma foto de outra conversa, e remover a foto ou a faixa não volta mais sozinho.\n- A Yoru Oficial ganhou cara nova: Aurora roxa, lua, o Kuro e o 夜 em volta da foto, faixa própria no perfil e as abas Avisos e Painel.\n- Mais leve: As animações param com a janela minimizada e gastam menos processador.",
+  "notes": "Celular mais arrumado e chamadas que não se perdem\n- Chamadas pela internet mais confiáveis: Enquanto uma chamada toca ou conecta, o Yoru confere as mensagens a cada poucos segundos, e percebe sozinho quando o aviso em tempo real parou de chegar. No Android, voltar ao app já busca o que chegou, sem esperar.\n- Celular mais arrumado: O campo de mensagem cabe numa linha só, a conversa não escorrega mais para os lados, as abas de Amigos ficam numa linha e a seleção de servidor mostra só o contorno. O botão de spoiler saiu do campo: escrever ||assim|| continua escondendo o texto.\n- Fotos antigas de volta no celular: Fotos que você mandou ou recebeu no computador antes de entrar no celular voltam a aparecer: quando uma delas some da nuvem, o computador manda de novo.\n- Cofre ainda mais firme: Seguimos a revisão de segurança: os dados guardados no seu computador passam a recusar qualquer arquivo adulterado ou cortado pela metade.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.6\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.0-beta.6-arm64.dmg\",\"size\":155509763,\"sha256\":\"2659257a212b892a00ecb7b5879daa2ff884e5d32abc1e533fc9b8ce18fb0d07\",\"notes\":\"Mais segurança e atender com o celular bloqueado\",\"createdAt\":1793235611213,\"channel\":\"beta\"}",
-        "signature": "5wu2Hg6kySbrao1cG+i1y+UDa11gdDLFzAw4zxbhwSNsTNF/eXGsBEc7TknUKrOc4Ly8ti7XeQ+AAdXanOPGCA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.7\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.0-beta.7-arm64.dmg\",\"size\":155506964,\"sha256\":\"19085bd018d553e761adc41c4484ae2c1003c21eda2de8946da08669295b5a2a\",\"notes\":\"Celular mais arrumado e chamadas que não se perdem\",\"createdAt\":1793284371391,\"channel\":\"beta\"}",
+        "signature": "KoDRvRG5j+djNdWzfhkAqLoAwaUOHaKYtsMpJQVAix3UXFkQiod+A2oW+JPxs/RkOocUozeatWICmjYnkVEqDg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.6/Yoru-1.3.0-beta.6-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.7/Yoru-1.3.0-beta.7-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.6\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.0-beta.6-x64.dmg\",\"size\":162324854,\"sha256\":\"391b79097f63cc5e1a984531c5d1c955dfeb1894ac5cfd86ff49b6fef317d1b0\",\"notes\":\"Mais segurança e atender com o celular bloqueado\",\"createdAt\":1793235611009,\"channel\":\"beta\"}",
-        "signature": "7I5NzJqZzrCYnscOnl3YmRVxUv82fakS2H98WlR3UGZtv8JbovH4MBSvLwQjmbZ3UHidQGzkfIz1oLuau7SrAg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.7\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.0-beta.7-x64.dmg\",\"size\":162322538,\"sha256\":\"2e0a982df43193ad6611521bcf7a37242435e039e54f92c41b0f372fe02620be\",\"notes\":\"Celular mais arrumado e chamadas que não se perdem\",\"createdAt\":1793284371142,\"channel\":\"beta\"}",
+        "signature": "fXTBhHKjDrYiHiddCStuR5PmXMCeQtiZVcIyOgp/vsIbY6dYYAo68ORu47KEXKxVQd0RZ4NqYkL3d/RYCChpCA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.6/Yoru-1.3.0-beta.6-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.7/Yoru-1.3.0-beta.7-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.6\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.0-beta.6.AppImage\",\"size\":152736011,\"sha256\":\"4ae0768cde5b70eeb9bb95840fa34aabb61f9c0645dfc40277fbc96744ab87c6\",\"notes\":\"Mais segurança e atender com o celular bloqueado\",\"createdAt\":1793235495003,\"channel\":\"beta\"}",
-        "signature": "MvMQUvw1+LDRLYv1y9E0lUkow2UxzK8h7BsnOfj3DjQkbYSAZ2uDFAPgUt2KxxnM31eIFkejo21eMpDE+XmZCw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.7\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.0-beta.7.AppImage\",\"size\":152740460,\"sha256\":\"02551e154a6f4b1190e56e92ecfa3acc5b225a022ccdc5d8c17a31621971c519\",\"notes\":\"Celular mais arrumado e chamadas que não se perdem\",\"createdAt\":1793283975103,\"channel\":\"beta\"}",
+        "signature": "PLwsfbprZ1oZb47Ebh6nTK1pw2LPPrTnvYGBszr0Sq5ameogyuQ0/nRh1mAiCmnLBcSILU9Xz/d3Yo2PadzZAg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.6/Yoru-1.3.0-beta.6.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.7/Yoru-1.3.0-beta.7.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.6\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.0-beta.6.exe\",\"size\":134013933,\"sha256\":\"8aa054494664b8c8773945899804ecbe3876a3058601878c94bd0c3d052237ef\",\"notes\":\"Mais segurança e atender com o celular bloqueado\",\"createdAt\":1793235569361,\"channel\":\"beta\"}",
-        "signature": "i5oM5MvWKqy39NbQ08HK3C8dQQ4iCGi2h5F55Vd595HNWuB5KPP3uS0KFg8Qt/+baZIzyTA3U02DJaH4BWYPDA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.7\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.0-beta.7.exe\",\"size\":134016997,\"sha256\":\"0a24732e9eaee762903c0400f9baeaf4bd6f2588de5bb8aaa6bc4da1cc011c2f\",\"notes\":\"Celular mais arrumado e chamadas que não se perdem\",\"createdAt\":1793284037856,\"channel\":\"beta\"}",
+        "signature": "pKxNsZXem293j02pd2GFSnJvICbszA3nX+raPYbv4VlZmu17FKQlctKryluQvpCbSL5BJyQoVNDo7+LmslswAw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.6/Yoru-Setup-1.3.0-beta.6.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.7/Yoru-Setup-1.3.0-beta.7.exe"
     }
   },
   "android": {
-    "version": "1.3.0-beta.6",
-    "versionCode": 1030006,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.6/Yoru-1.3.0-beta.6.apk",
-    "size": 14167828,
-    "sha256": "18394c866212d8da19223730c4ffa7ce1ab05dadfd552a07941cb039f09c9d54"
+    "version": "1.3.0-beta.7",
+    "versionCode": 1030007,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.7/Yoru-1.3.0-beta.7.apk",
+    "size": 14169264,
+    "sha256": "636cbda7f937732a1849a6716132c6cfb5fe6ae76e33b1df34ec028a73453433"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
