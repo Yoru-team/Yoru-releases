@@ -1,11 +1,18 @@
 // Avisa no Discord de uma release do Yoru-releases (chamado pelo .github/workflows/discord.yml).
 // Lê a release (TAG ou a mais nova, beta inclusive), monta os embeds no estilo do servidor e manda pelos webhooks.
 // Teste local sem enviar: SIMULAR=1 node scripts/discord-aviso.mjs
+//
+// Anúncio na voz da Yoru (1.3.0+): se existir anuncios/<versão>.json (escrito com a skill /anuncio do Yoru), a frase de #releases,
+// as novidades de #patch-notes e os arquivos anexos (ex.: o PDF de segurança, em anuncios/) saem dele. Sem o arquivo, tudo como antes.
+import { existsSync, readFileSync } from 'node:fs'
+import { join } from 'node:path'
+
 const repo = process.env.GITHUB_REPOSITORY ?? 'Yoru-team/Yoru-releases'
 const COR = 0x8b5cf6
 const COR_BETA = 0x3ba55c
-const SITE = 'https://yoru-call.web.app'
-const SITE_BETA = 'https://yoru-call-beta.web.app'
+// o Firebase (yoru-call.web.app) saiu em 28/10: o site fica só na Cloudflare
+const SITE = 'https://yoruapp.com.br'
+const SITE_BETA = 'https://beta.yoruapp.com.br'
 
 async function gh(path) {
   const headers = { accept: 'application/vnd.github+json', 'user-agent': 'yoru-discord' }
@@ -73,6 +80,35 @@ async function post(name, url, payload) {
   console.log(`Enviado em ${name}.`)
 }
 
+/** Mensagem com um arquivo anexo (multipart do webhook). */
+async function postFile(name, url, payload, path) {
+  if (!url) {
+    console.log(`Sem ${name}: anexo pulado.`)
+    return
+  }
+  const bytes = readFileSync(path)
+  const fileName = path.split(/[\\/]/).pop()
+  if (process.env.SIMULAR) {
+    console.log(`----- ${name} (anexo ${fileName}, ${Math.round(bytes.length / 1024)} KB)\n${JSON.stringify(payload, null, 2)}`)
+    return
+  }
+  const form = new FormData()
+  form.append('payload_json', JSON.stringify({ ...payload, attachments: [{ id: 0, filename: fileName }] }))
+  form.append('files[0]', new Blob([bytes], { type: fileName.endsWith('.pdf') ? 'application/pdf' : 'application/octet-stream' }), fileName)
+  const res = await fetch(`${url}?wait=true`, { method: 'POST', body: form })
+  if (!res.ok) throw new Error(`Discord ${res.status} em ${name}: ${await res.text()}`)
+  console.log(`Enviado em ${name} com ${fileName}.`)
+}
+
+/** Anúncio escrito na voz da Yoru para esta versão, se houver (anuncios/<versão>.json). */
+function anuncio(version) {
+  const file = join('anuncios', `${version}.json`)
+  if (!existsSync(file)) return null
+  const a = JSON.parse(readFileSync(file, 'utf8'))
+  if (a.versao !== version) throw new Error(`${file} é da versão ${a.versao}, não da ${version}.`)
+  return a
+}
+
 const r = await release()
 const version = r.tag_name.replace(/^v/, '')
 const beta = r.prerelease || /-beta\./.test(version)
@@ -116,11 +152,18 @@ if (beta) {
   })
 } else {
   const role = process.env.DISCORD_CARGO_NOTIFICACOES
+  const a = anuncio(version)
   await post('#releases', process.env.DISCORD_WEBHOOK_RELEASES, {
     ...base,
-    content: `${ping(role)}O **Yoru ${version}** saiu! 🌙`,
+    content: `${ping(role)}${a?.releases ?? `O **Yoru ${version}** saiu! 🌙`}`,
     allowed_mentions: allowed(role),
     embeds: [downloadEmbed]
   })
-  await post('#patch-notes', process.env.DISCORD_WEBHOOK_PATCH_NOTES, { ...base, allowed_mentions: allowed(null), embeds: [notesEmbed] })
+  const notes = a?.notas
+    ? { color: COR, title: a.notas.title, url: r.html_url, description: a.notas.description, footer: a.notas.footer ? { text: a.notas.footer } : undefined, timestamp: r.published_at }
+    : notesEmbed
+  await post('#patch-notes', process.env.DISCORD_WEBHOOK_PATCH_NOTES, { ...base, allowed_mentions: allowed(null), embeds: [notes] })
+  for (const f of a?.arquivos ?? []) {
+    await postFile('#patch-notes', process.env.DISCORD_WEBHOOK_PATCH_NOTES, { ...base, allowed_mentions: allowed(null), content: f.texto }, join('anuncios', f.arquivo))
+  }
 }
