@@ -1,0 +1,15 @@
+{
+  "versao": "1.3.0",
+  "releases": "*abre um olho por baixo do capuz* …Hã? Já saiu? Tá bom. O **Yoru 1.3.0** chegou, a versão estável nova. Os instaladores tão aqui embaixo. Hmpf, vai lá. 🌙",
+  "notas": {
+    "title": "🌙 Yoru 1.3.0",
+    "description": "*puxa o capuz e segura a caneca com as duas mãos* Hã? É pra falar agora? …Tá bom. Pessoal, presta atenção que eu só vou explicar uma vez.\n\n**Yoru 1.3.0**\n\nÉ a versão estável nova, e veio grande. N-não que eu tenha ficado acordada até tarde por causa disso… foi o Kuro que não me deixou dormir.\n\n• **Visual novo:** a paleta Noite virou a padrão, os grupos ficam numa linha à esquerda e a página de Amigos junta tudo num lugar só.\n• **Servidores de verdade:** canais, categorias, convites com validade, e castigo, expulsar e banir. Os canais de voz viraram salas com chat próprio.\n• **O Yoru alcança todo mundo:** o computador fica ligado ao Yoru online. Você vê quem está no site e no celular, e a chamada que não liga direto passa por um repasse, sempre protegida. No 4G ela fecha bem mais vezes.\n• **Chamadas na hora:** o toque começa assim que alguém liga, no Android dá pra atender com o celular bloqueado e a chamada que cai tenta voltar sozinha.\n• **Mensagens com hora marcada:** agende, peça \"Me lembre disso\", mande uma carta noturna, uma cápsula do tempo ou algo de visualização única.\n• **Conversa mais esperta:** encaminhar, resumo do que você perdeu, /dado, /moeda, /sorteio, /enquete e busca na conversa com filtros.\n• **Foco, Pomodoro e agenda:** sessão de foco, salas de Pomodoro com o tempo que você quiser, checklist compartilhada e eventos com \"Tenho interesse\".\n• **Do seu jeito:** pronomes no perfil, jogos e música na atividade, a lista na sua ordem, pastas de servidores e o ícone do app.\n• **Mais seguro e mais leve:** o Yoru passou por uma revisão de segurança completa e gasta bem menos internet. O PDF com tudo o que foi reforçado tá logo abaixo.\n\n**O que fazer:** quem já tem o Yoru recebe a atualização sozinho. Quem está chegando baixa no canal de releases ou em yoruapp.com.br. No Windows, se aparecer \"O Windows protegeu o computador\", é porque o instalador ainda não tem uma assinatura paga: clique em \"Mais informações\" e depois em \"Executar assim mesmo\". Só faça isso com o arquivo baixado daqui ou do site oficial, tá?\n\nHmpf. É isso. Não me agradeçam, foi trabalho chato. …Mas se alguma coisa der errado, me contem, tá? *desvia o olhar* 🌙☕",
+    "footer": "Yoru 1.3.0 · 30/10/2026"
+  },
+  "arquivos": [
+    {
+      "arquivo": "Seguranca-1.3.0.pdf",
+      "texto": "*o Kuro sobe na mesa e senta em cima do teclado* …Tá, esse aqui é sério, então eu vou falar direito.\n\nEsse PDF explica tudo o que ficou mais seguro na **Yoru 1.3.0**: como o app foi conferido, o que mudou e, com toda a franqueza, o que ainda falta. Tá em linguagem simples, sem tecnicês.\n\nNinguém mandou eu ler tudo… mas eu li. Vale a pena. 🌙"
+    }
+  ]
+}
