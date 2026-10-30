@@ -1,0 +1,95 @@
+# Pacote da Microsoft Store (.appx) do Yoru (1.3.0+). Roda à parte do Lançamento, quando quem publica na loja quiser, num Windows do
+# GitHub, que já vem com o Windows SDK (o makeappx). O pacote sai sem assinatura: a loja assina ao publicar. Ele não vai para a
+# release pública (um .appx sem assinatura não instala fora da loja): fica como artefato por 7 dias, para enviar no Partner Center.
+#
+# Como usar: Actions > "Microsoft Store" > Run workflow, com a versão (igual à do package.json) e o branch, tag ou commit.
+# Variáveis (Settings > Secrets and variables > Actions > Variables), copiadas do Partner Center (Apps e jogos > Yoru >
+# Gerenciamento de produtos > Identidade do produto). Não são segredos:
+#   YORU_APPX_IDENTITY_NAME            Package/Identity/Name
+#   YORU_APPX_PUBLISHER                Package/Identity/Publisher (começa com CN=)
+#   YORU_APPX_PUBLISHER_DISPLAY_NAME   Package/Properties/PublisherDisplayName
+# "teste" gera o pacote com uma identidade provisória, só para conferir que o build sai (não serve para a loja).
+#
+# A cópia da loja se reconhece (process.windowsStore): a malha de atualizações fica desligada e quem atualiza é a loja.
+name: Microsoft Store
+
+on:
+  workflow_dispatch:
+    inputs:
+      versao:
+        description: 'Versão (igual à do package.json): 1.3.0'
+        required: true
+        type: string
+      ref:
+        description: 'Branch, tag ou commit do código no Yoru-team/Yoru'
+        required: true
+        default: main
+        type: string
+      teste:
+        description: 'Identidade provisória (só confere o build; o pacote não serve para a loja)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+env:
+  SOURCE_REPO: Yoru-team/Yoru
+  VERSAO: ${{ inputs.versao }}
+
+jobs:
+  appx:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    env:
+      MAIN_VITE_KLIPY_KEY: ${{ secrets.KLIPY_KEY }}
+      MAIN_VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
+      MAIN_VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY }}
+      YORU_APPX_IDENTITY_NAME: ${{ inputs.teste && 'Teste.Yoru' || vars.YORU_APPX_IDENTITY_NAME }}
+      YORU_APPX_PUBLISHER: ${{ inputs.teste && 'CN=Teste' || vars.YORU_APPX_PUBLISHER }}
+      YORU_APPX_PUBLISHER_DISPLAY_NAME: ${{ inputs.teste && 'Teste' || vars.YORU_APPX_PUBLISHER_DISPLAY_NAME }}
+      CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+    steps:
+      - name: Dados do Partner Center cadastrados
+        shell: bash
+        run: |
+          echo "$VERSAO" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+$' || { echo "::error::Na loja vai só versão estável (X.Y.Z): $VERSAO"; exit 1; }
+          falta=""
+          for v in YORU_APPX_IDENTITY_NAME YORU_APPX_PUBLISHER YORU_APPX_PUBLISHER_DISPLAY_NAME; do
+            [ -n "${!v}" ] || falta="$falta $v"
+          done
+          if [ -n "$falta" ]; then echo "::error::Variáveis não cadastradas:$falta (veja o começo deste arquivo)"; exit 1; fi
+          case "$YORU_APPX_PUBLISHER" in CN=*) ;; *) echo "::error::YORU_APPX_PUBLISHER começa com CN="; exit 1 ;; esac
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SOURCE_REPO }}
+          ref: ${{ inputs.ref }}
+          ssh-key: ${{ secrets.YORU_SOURCE_DEPLOY_KEY }}
+      - name: A versão é a do package.json
+        shell: bash
+        run: |
+          V=$(node -p "require('./package.json').version")
+          [ "$V" = "$VERSAO" ] || { echo "::error::O package.json está na versão $V, não $VERSAO."; exit 1; }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npx install-electron
+      # o makeappx do Windows SDK da máquina (o kit que o electron-builder baixa não abre em todo Windows)
+      - name: Windows SDK
+        shell: pwsh
+        run: |
+          $kit = Get-ChildItem "${env:ProgramFiles(x86)}\Windows Kits\10\bin\*\x64\makeappx.exe" | Sort-Object FullName -Descending | Select-Object -First 1
+          if (-not $kit) { Write-Error "makeappx.exe não encontrado no Windows SDK"; exit 1 }
+          Write-Host "makeappx: $($kit.FullName)"
+          "ELECTRON_BUILDER_WINDOWS_KITS_PATH=$($kit.DirectoryName)" >> $env:GITHUB_ENV
+      - run: npm run build
+      - run: node scripts/dist.mjs --appx
+      - uses: actions/upload-artifact@v4
+        with:
+          name: microsoft-store-${{ inputs.versao }}${{ inputs.teste && '-teste' || '' }}
+          if-no-files-found: error
+          retention-days: 7
+          path: dist/*.appx
