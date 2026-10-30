@@ -1,44 +1,44 @@
 {
-  "version": "1.3.0-beta.8",
+  "version": "1.3.0-beta.9",
   "channel": "beta",
-  "date": "2026-10-29",
-  "notes": "Celular que reconecta sozinho\n- Reconecta sozinho: Se a internet falhar bem na hora de abrir o app, o Yoru tenta de novo sozinho, e na hora quando a rede volta ou você volta ao app. Antes era preciso fechar e abrir.\n- Nada fica para trás: Mensagens e passos da chamada que chegavam bem no meio de uma leitura podiam esperar até 5 minutos. Agora entram na hora, e o aviso de chamada não espera mais uma foto terminar de subir.\n- Correções: Renomear a única sala de voz do servidor agora aparece para todos, o Yoru não fecha mais quando falta espaço no disco durante uma atualização, e a visualização única sai da memória assim que você fecha.\n- Revisão de segurança: Seguimos a auditoria: o instalador leva só o que o app usa, e os passos automáticos de publicação ficaram fixos numa versão conferida.",
+  "date": "2026-10-30",
+  "notes": "Chamadas mais firmes e telas mais diretas\n- Amigos mais diretos: Adicionar amigo sempre abre no meio da tela. Os cartões de quem está jogando abrem a conversa, e o botão direito traz o menu da pessoa. A busca virou um campo com o + de nova conversa.\n- Castigo, Pomodoro e agenda: Castigo e Pomodoro viraram um botão só, com as opções num diálogo: castigo de 1 minuto e pomodoro com o tempo que você quiser. Clicar num dia da agenda cria um evento, e o mês aparece em cima.\n- Pastas de volta: Arrastar um servidor sobre outro para criar uma pasta, e arrastar conversas para mudar a ordem, voltou a funcionar com o mouse. Sem foto ou faixa, o clique já abre a escolha do arquivo.\n- No celular: O emoji voltou para o lado do +, como no computador, e o ícone do app tem o mesmo enquadramento do computador. Uma foto baixando não segura mais as outras mensagens.\n- Primeira chamada no 4G: Se o Yoru ainda estava buscando o servidor de apoio das chamadas, a ligação espera alguns segundos por ele em vez de começar sem. A primeira chamada pelo 4G fecha com muito mais frequência.\n- Chamada que cai volta: Quando a conexão de uma chamada falha, os dois lados buscam os servidores de novo antes de reconectar, e cada etapa da conexão espera mais por uma rede lenta.\n- Nada se perde ao abrir: Se o histórico demorar ou falhar ao abrir, você continua recebendo. O que chegar de alguém que ainda não apareceu na sua lista fica guardado e entra assim que o histórico carregar.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.8\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.0-beta.8-arm64.dmg\",\"size\":155503080,\"sha256\":\"70ff76f3d14515534e279cd7c8df31938e6df973dfd86ad25b2dacbc809245a0\",\"notes\":\"Celular que reconecta sozinho\",\"createdAt\":1793288263961,\"channel\":\"beta\"}",
-        "signature": "aAqcme1R+1G9J8VUYn8y1ZUwOiqneFnQ92IrzjBq3y1GNiLwyYLHhKjtG74Mw24Fs93VB04QgHj11pd+13cfDA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.9\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.0-beta.9-arm64.dmg\",\"size\":155519501,\"sha256\":\"85645acc9871ac660535a9363d8011af25ecd0122dbf72d70455e0315ae8c62c\",\"notes\":\"Chamadas mais firmes e telas mais diretas\",\"createdAt\":1793321405696,\"channel\":\"beta\"}",
+        "signature": "kzm7CT+mF6f2ki3dgS+FDJ9X++GTDt5m3cxWATbi1TPUeZK0fazpTO6CfKZ8hz6v+7bkmd+RZl440Ge3TZL2Dg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.8/Yoru-1.3.0-beta.8-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.9/Yoru-1.3.0-beta.9-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.8\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.0-beta.8-x64.dmg\",\"size\":162330082,\"sha256\":\"9845d25e9f27c1157178cfd5001f46351bb0af8f4185878d4c4cf057229e76e1\",\"notes\":\"Celular que reconecta sozinho\",\"createdAt\":1793288263755,\"channel\":\"beta\"}",
-        "signature": "fPngG1p5ULjorLKuHMcG7j6tW17wmoAZVz3mUCAub3natPBcKcozMe6gy6FG56ewDcBEEHksEIbN9PEowj4fBg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.9\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.0-beta.9-x64.dmg\",\"size\":162327178,\"sha256\":\"9a93da2e938261218cbfb904f05e9209ad8ea831caefb80ff2c45ae98513cbd4\",\"notes\":\"Chamadas mais firmes e telas mais diretas\",\"createdAt\":1793321405430,\"channel\":\"beta\"}",
+        "signature": "IS57Iwan1FRvPbjG4hH/0//mGMMm6Rdxw6AirZcIjgkVU1vgaMkm/8f2QDa0YLEGQ9V6GEawJBR/fWleNWpXAA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.8/Yoru-1.3.0-beta.8-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.9/Yoru-1.3.0-beta.9-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.8\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.0-beta.8.AppImage\",\"size\":152752272,\"sha256\":\"662e952f3495e2832ddf7d05e5f24177e0e2d6f91831e94545699260c9b2b24b\",\"notes\":\"Celular que reconecta sozinho\",\"createdAt\":1793287191761,\"channel\":\"beta\"}",
-        "signature": "RXKnxjqJ/yDn03XZ3979mECQ/+thTidtPRK2hDSp7ALsW2qUUD5D4JX5ndh2ZC+OmTFhPfcbcKetEdiqSVemAw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.9\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.0-beta.9.AppImage\",\"size\":152760665,\"sha256\":\"0ff7f647c4efe88f448308ca8e64512f39dbd5d692fc39d2c16e7b8664d8917e\",\"notes\":\"Chamadas mais firmes e telas mais diretas\",\"createdAt\":1793321303828,\"channel\":\"beta\"}",
+        "signature": "xlGtpOLM3dKuLpKyu2vj+ejAon7LmQM30rBZOyLIjQlLEgpxowq50wBToWmurJTTb1BilDNAVqUGeUohYvRqAQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.8/Yoru-1.3.0-beta.8.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.9/Yoru-1.3.0-beta.9.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.8\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.0-beta.8.exe\",\"size\":134014838,\"sha256\":\"d366dc7c4959cef56f0d8519caf1f542b62133ddc696c25ecb6b2823234bb662\",\"notes\":\"Celular que reconecta sozinho\",\"createdAt\":1793287279348,\"channel\":\"beta\"}",
-        "signature": "FtEI+YwzJh/TmdF+q6QcU/+ea+EynM5zKnbY4aAbujBi1X5RLfdvkaaERcNpIrhIvk+p+q2zXjPM4+t4B01gDQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0-beta.9\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.0-beta.9.exe\",\"size\":134020392,\"sha256\":\"15f68e85c9f77d151ecb9a99a7468af98fcd66616252382688fffb7eabcb2654\",\"notes\":\"Chamadas mais firmes e telas mais diretas\",\"createdAt\":1793321354501,\"channel\":\"beta\"}",
+        "signature": "R26A08ubMPF8MGo1OdZI7yHMFOBNayVeoLcFZpdD6OZ27U1SDJqD4RbbQ5Y9rui1rRVpuUjIWezAHbGQQwnpDA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.8/Yoru-Setup-1.3.0-beta.8.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.9/Yoru-Setup-1.3.0-beta.9.exe"
     }
   },
   "android": {
-    "version": "1.3.0-beta.8",
-    "versionCode": 1030008,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.8/Yoru-1.3.0-beta.8.apk",
-    "size": 14170176,
-    "sha256": "e2a1cbd73c965af31f1662b3c75df2fff5903e269332d0570059599816b6d1a1"
+    "version": "1.3.0-beta.9",
+    "versionCode": 1030009,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0-beta.9/Yoru-1.3.0-beta.9.apk",
+    "size": 13915604,
+    "sha256": "37aa68f708157ca552911cb885e46ab032c648495ccbfaff89d348001a578be6"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
