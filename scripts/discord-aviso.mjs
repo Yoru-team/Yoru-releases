@@ -144,12 +144,19 @@ const notesEmbed = {
 
 if (beta) {
   const role = process.env.DISCORD_CARGO_BETA
+  const a = anuncio(version)
+  const notes = a?.notas
+    ? { color: COR_BETA, title: a.notas.title, url: r.html_url, description: a.notas.description, footer: a.notas.footer ? { text: a.notas.footer } : undefined, timestamp: r.published_at }
+    : notesEmbed
   await post('#builds', process.env.DISCORD_WEBHOOK_BUILDS, {
     ...base,
-    content: `${ping(role)}Nova versão de teste no ar! 🧪`,
+    content: `${ping(role)}${a?.releases ?? 'Nova versão de teste no ar! 🧪'}`,
     allowed_mentions: allowed(role),
-    embeds: [downloadEmbed, notesEmbed]
+    embeds: [downloadEmbed, notes]
   })
+  for (const f of a?.arquivos ?? []) {
+    await postFile('#builds', process.env.DISCORD_WEBHOOK_BUILDS, { ...base, allowed_mentions: allowed(null), content: f.texto }, join('anuncios', f.arquivo))
+  }
 } else {
   const role = process.env.DISCORD_CARGO_NOTIFICACOES
   const a = anuncio(version)
