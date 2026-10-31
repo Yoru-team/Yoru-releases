@@ -289,7 +289,21 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
+          # a estável mais nova que o beta publicado vai também para beta.yoruapp.com.br (regra de 31/10: o site beta não fica para
+          # trás até o próximo beta); mesmo cálculo do versionCode de vite.web.config.ts
+          maior() {
+            node -e '
+              const code = (v) => { const m = /^(\d+)\.(\d+)\.(\d+)(?:-beta\.(\d+))?$/.exec(v); return m ? m[1] * 1e6 + m[2] * 1e4 + m[3] * 100 + (m[4] === undefined ? 99 : +m[4]) : -1 }
+              process.exit(code(process.argv[1]) > code(process.argv[2]) ? 0 : 1)' "$1" "$2"
+          }
           case "$VERSAO" in
             *-beta.*) npx --yes wrangler@4.150.0 deploy --env beta ;;
-            *) npx --yes wrangler@4.150.0 deploy ;;
+            *)
+              npx --yes wrangler@4.150.0 deploy
+              NO_BETA=$(curl -fsS https://beta.yoruapp.com.br/version.json | node -e 'let s="";process.stdin.on("data",(d)=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).version||"")}catch{console.log("")}})' || true)
+              if maior "$VERSAO" "$NO_BETA"; then
+                echo "Site beta em ${NO_BETA:-?}: a estável $VERSAO vai também para beta.yoruapp.com.br"
+                npx --yes wrangler@4.150.0 deploy --env beta
+              fi
+              ;;
           esac
