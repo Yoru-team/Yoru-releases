@@ -1,44 +1,44 @@
 {
-  "version": "1.3.1-beta.1",
+  "version": "1.3.1-beta.2",
   "channel": "beta",
-  "date": "2026-10-30",
-  "notes": "Todos os aparelhos tocam\n- Todos os seus aparelhos tocam: Numa ligação pela internet, o computador e o celular tocam juntos, e a chamada fica com o que você atender. Antes só tocava o primeiro que recebia o aviso.\n- Recebe com o app fechado (Android): Fechou o Yoru pelos recentes ou reiniciou o celular? Ele volta sozinho em segundo plano para receber mensagens e chamadas. Dá para desligar em Configurações › Avisos.\n- Tela do celular na chamada: No Android, dá para transmitir a tela do celular na chamada, com o som dos apps.\n- Abre mais rápido no 4G: As mensagens chegam sem esperar o histórico carregar, e nenhuma se perde quando muitas chegam de alguém que ainda não apareceu na sua lista.\n- Diagnóstico da nuvem: Quando algo falha na versão online, \"Ver detalhes\" mostra o que aconteceu, e dá para copiar o diagnóstico para quem está ajudando. Ele não leva mensagens, chaves nem contatos.\n- Busca no meio da tela: A busca de amigos, grupos e servidores (Ctrl+K) abre no meio da tela, e o Sair da bandeja sempre fecha o Yoru de verdade.\n- Chat da chamada no lugar: O chat ao lado da chamada não rola mais para os lados: cartões e mensagens cabem no painel, e os botões de cada mensagem aparecem em cima dela.",
+  "date": "2026-10-31",
+  "notes": "Barra da chamada nova\n- Barra da chamada mais enxuta: A barra ficou com microfone, Ensurdecer, câmera, tela, Mais e Sair. O Chat e o Chamar pessoas foram para o canto de cima, à direita. Pomodoro, efeitos sonoros, volume dos participantes e preferências ficam no Mais.\n- Ensurdecer: Um clique desliga o som de todos e o seu microfone. Voltar a ouvir devolve o microfone como estava. Os outros veem o fone riscado no seu quadro. Atalho: Ctrl+Shift+D.\n- Comunidade sem toque: Entrar num canal de voz de uma comunidade não toca mais para ninguém. Para chamar alguém, use o Chamar pessoas na chamada. No grupo pequeno, o Ligar toca para todos.\n- Ligação sem pular na frente: No computador, uma ligação chegando não coloca mais o Yoru por cima dos outros programas. Aparece um aviso do sistema, e clicar nele abre o Yoru.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.1\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-beta.1-arm64.dmg\",\"size\":155497098,\"sha256\":\"dac73da3578544d3cb04717bcdf1bade689ac133954ce89dce005153f89f437b\",\"notes\":\"Todos os aparelhos tocam\",\"createdAt\":1793403017990,\"channel\":\"beta\"}",
-        "signature": "Op98iXaV65BDY9fFkWPjHSybzNJyQR+yxMmEDv3Skih/SPEAFxB79iylAFvK4dpmR/kNAlnBAfmmJKVX7FGQCg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-beta.2-arm64.dmg\",\"size\":155511814,\"sha256\":\"d44c32199befb9422d6cf8234c754de26ca6e42e7b7c6e3bca2a6f1fef5ca5ab\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413569304,\"channel\":\"beta\"}",
+        "signature": "LvcH5MH//Djm94sMipAOJwYkZVHYnHbcPG5kWw2w3GDVq19+91Usgr1DKyv/8kEUk6JpO8d810YGeup9/X+hCg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.1/Yoru-1.3.1-beta.1-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.1\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-beta.1-x64.dmg\",\"size\":162372986,\"sha256\":\"c099bc6092f04f12cde4346e9e1b4016da35670d74f83be33eb4ad5abdc726a8\",\"notes\":\"Todos os aparelhos tocam\",\"createdAt\":1793403017863,\"channel\":\"beta\"}",
-        "signature": "AngqKDxFTg3YCYIBxK3kawKExHgoYG5Sg0a5+pymQFn8KNTi/MoqmcMjjlzg0+r8rXli41OilcaLbg26N+nxAQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-beta.2-x64.dmg\",\"size\":162367662,\"sha256\":\"358a12750c1cf4e4f7f197217862b825d34e09a19d836cb71b676bd36a2ad1df\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413569131,\"channel\":\"beta\"}",
+        "signature": "axbbDhHgELgUQb0RBNvOGhHTa1n4AYqE9hHN0BoYNvqzstiEpTb6HBmbR5AU/66qJp29HaRsEN54pmWfJzZfDg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.1/Yoru-1.3.1-beta.1-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.1\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1-beta.1.AppImage\",\"size\":152764815,\"sha256\":\"40a68985b22543b59c2f31952c685055b0ca85993f65cddb4a182c003b675c2f\",\"notes\":\"Todos os aparelhos tocam\",\"createdAt\":1793402974242,\"channel\":\"beta\"}",
-        "signature": "9P3jhYnrEd+z7gqJGQRwxTAGlH5qjMApR+FbE9oVY9D2bo/uYCCm61fbznkGBgmS4nIG3xCAd7zVjwcKrn62BQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1-beta.2.AppImage\",\"size\":152764725,\"sha256\":\"f86dbbe3e1e0412b5ae5736d775c5b474cd45f022618b12cc4ddfd593194a636\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413475569,\"channel\":\"beta\"}",
+        "signature": "d5ymXNZhHCSePu25n31Hb/wf3fhWjKlAwBE7DgCxrDhBRH0ZtNVBzMOgZnie9L74ZwMoqyxPrskuD9HLkr18AQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.1/Yoru-1.3.1-beta.1.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.1\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1-beta.1.exe\",\"size\":134029322,\"sha256\":\"2aba9d4af3711f0f438fb08cf0a2f8d84a8147660833d32c380f9db63b4280a8\",\"notes\":\"Todos os aparelhos tocam\",\"createdAt\":1793403042699,\"channel\":\"beta\"}",
-        "signature": "l8s1NtJHHzh4/RfWcm88oXVw8twuQG4AhEqDdOKTyAX1502Kq4EGNHi1sXfh0wioES/iEPVS6cYf/Jramj0aCw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1-beta.2.exe\",\"size\":134029004,\"sha256\":\"65718030bb977ec1704bed89e20d0dea7fa0c4d8db4dfc17d57db71db64c44be\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413592800,\"channel\":\"beta\"}",
+        "signature": "6ck+Hw1OgPsGRwftEn7L3eceTjHKhgJ9TAd82PPD+SV1CGKNzr7BwwC7rRZ4ATqvWEaJi68jaBMeCmWIwb5VCg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.1/Yoru-Setup-1.3.1-beta.1.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-Setup-1.3.1-beta.2.exe"
     }
   },
   "android": {
-    "version": "1.3.1-beta.1",
-    "versionCode": 1030101,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.1/Yoru-1.3.1-beta.1.apk",
-    "size": 13927912,
-    "sha256": "1b41d4d10420d0f3f9e816afa8d322c324ef144c9d50f7176cc4be1dd2eccb43"
+    "version": "1.3.1-beta.2",
+    "versionCode": 1030102,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2.apk",
+    "size": 13928896,
+    "sha256": "2c54f8eecc4910bfe806575f2f2f26413d68b4888aa2fc93728d2a75efdd5734"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
