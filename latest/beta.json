@@ -1,44 +1,44 @@
 {
-  "version": "1.3.1-beta.2",
+  "version": "1.3.1-beta.3",
   "channel": "beta",
   "date": "2026-10-31",
-  "notes": "Barra da chamada nova\n- Barra da chamada mais enxuta: A barra ficou com microfone, Ensurdecer, câmera, tela, Mais e Sair. O Chat e o Chamar pessoas foram para o canto de cima, à direita. Pomodoro, efeitos sonoros, volume dos participantes e preferências ficam no Mais.\n- Ensurdecer: Um clique desliga o som de todos e o seu microfone. Voltar a ouvir devolve o microfone como estava. Os outros veem o fone riscado no seu quadro. Atalho: Ctrl+Shift+D.\n- Comunidade sem toque: Entrar num canal de voz de uma comunidade não toca mais para ninguém. Para chamar alguém, use o Chamar pessoas na chamada. No grupo pequeno, o Ligar toca para todos.\n- Ligação sem pular na frente: No computador, uma ligação chegando não coloca mais o Yoru por cima dos outros programas. Aparece um aviso do sistema, e clicar nele abre o Yoru.",
+  "notes": "Mensagem guardada e app mais leve\n- Mensagem guardada: Mandou para quem está offline? Assim que a mensagem fica guardada na nuvem ou no PC de um amigo em comum, o relógio vira um ✓. Ela chega quando a pessoa abrir o Yoru, e aí aparece o ✓✓.\n- Volume de cada pessoa: No clique direito em alguém da chamada, a voz e os efeitos sonoros ficam um embaixo do outro, do mesmo tamanho, e o ícone de voltar a 100% fica no alto, ao lado do nome.\n- Mais leve: O Yoru instalado no Windows ficou cerca de 90 MB menor, as imagens que você já não está vendo liberam memória e mandar arquivos na chamada pesa menos.\n- Chamadas pela internet: A ligação pela nuvem faz bem menos consultas ao servidor durante a chamada.\n- Zoom do app ao soltar: Em Configurações › Aparência, o zoom só muda quando você solta o controle; enquanto arrasta, só a porcentagem muda.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-beta.2-arm64.dmg\",\"size\":155511814,\"sha256\":\"d44c32199befb9422d6cf8234c754de26ca6e42e7b7c6e3bca2a6f1fef5ca5ab\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413569304,\"channel\":\"beta\"}",
-        "signature": "LvcH5MH//Djm94sMipAOJwYkZVHYnHbcPG5kWw2w3GDVq19+91Usgr1DKyv/8kEUk6JpO8d810YGeup9/X+hCg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.3\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-beta.3-arm64.dmg\",\"size\":135178336,\"sha256\":\"c162365a565665e40df41f109b417bafdbb76882c1a6ec5352edfb20cca0ace8\",\"notes\":\"Mensagem guardada e app mais leve\",\"createdAt\":1793456175750,\"channel\":\"beta\"}",
+        "signature": "ulSuQshX5OQQaj8R5On87piUuANmAJFZPUHPdxUAKM6D77UUX/ed4CYJXi34PIreaMMdTWx5xrurjaSQlxeQBw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.3/Yoru-1.3.1-beta.3-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-beta.2-x64.dmg\",\"size\":162367662,\"sha256\":\"358a12750c1cf4e4f7f197217862b825d34e09a19d836cb71b676bd36a2ad1df\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413569131,\"channel\":\"beta\"}",
-        "signature": "axbbDhHgELgUQb0RBNvOGhHTa1n4AYqE9hHN0BoYNvqzstiEpTb6HBmbR5AU/66qJp29HaRsEN54pmWfJzZfDg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.3\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-beta.3-x64.dmg\",\"size\":142025658,\"sha256\":\"bcfadca701444d2bcc78629c121735bac6a41402503db8e68448d42379997726\",\"notes\":\"Mensagem guardada e app mais leve\",\"createdAt\":1793456175567,\"channel\":\"beta\"}",
+        "signature": "WTrPg7SG0DE/pvTeo913HxdHJaWIzjywfcrZsfiqawtLWquEOGXHK/KRtAyJDk1XgKgaVkuM1h066aErpOGoAw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.3/Yoru-1.3.1-beta.3-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1-beta.2.AppImage\",\"size\":152764725,\"sha256\":\"f86dbbe3e1e0412b5ae5736d775c5b474cd45f022618b12cc4ddfd593194a636\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413475569,\"channel\":\"beta\"}",
-        "signature": "d5ymXNZhHCSePu25n31Hb/wf3fhWjKlAwBE7DgCxrDhBRH0ZtNVBzMOgZnie9L74ZwMoqyxPrskuD9HLkr18AQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.3\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1-beta.3.AppImage\",\"size\":141780065,\"sha256\":\"edf6640493b92b446f74fc15794e9f167bce0ca57fb2c444569bc4ac678b9d46\",\"notes\":\"Mensagem guardada e app mais leve\",\"createdAt\":1793456105608,\"channel\":\"beta\"}",
+        "signature": "2geRMRIaSeC2Ngl117/veNPU+XkNExIRk402EPw274JBAFKqZXv48VpAYyAcx0x8hvURyhNY72UyfN/6Ej42Ag=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.3/Yoru-1.3.1-beta.3.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.2\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1-beta.2.exe\",\"size\":134029004,\"sha256\":\"65718030bb977ec1704bed89e20d0dea7fa0c4d8db4dfc17d57db71db64c44be\",\"notes\":\"Barra da chamada nova\",\"createdAt\":1793413592800,\"channel\":\"beta\"}",
-        "signature": "6ck+Hw1OgPsGRwftEn7L3eceTjHKhgJ9TAd82PPD+SV1CGKNzr7BwwC7rRZ4ATqvWEaJi68jaBMeCmWIwb5VCg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.3\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1-beta.3.exe\",\"size\":119992437,\"sha256\":\"7a060781b41b58fb22c81d9b93a3bb493201d836719ee4eb347346a12c45cc52\",\"notes\":\"Mensagem guardada e app mais leve\",\"createdAt\":1793456193532,\"channel\":\"beta\"}",
+        "signature": "ym/PY6ghr7hX/jL7zgPkTbYnuukQrM4H4ztRs7353kJbQ6Cv7S2L/ZAHNYPMEz9N9VYZXjWODdGlUBtJXOiNDA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-Setup-1.3.1-beta.2.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.3/Yoru-Setup-1.3.1-beta.3.exe"
     }
   },
   "android": {
-    "version": "1.3.1-beta.2",
-    "versionCode": 1030102,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.2/Yoru-1.3.1-beta.2.apk",
-    "size": 13928896,
-    "sha256": "2c54f8eecc4910bfe806575f2f2f26413d68b4888aa2fc93728d2a75efdd5734"
+    "version": "1.3.1-beta.3",
+    "versionCode": 1030103,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.3/Yoru-1.3.1-beta.3.apk",
+    "size": 13930196,
+    "sha256": "a10da42c5398ee04dfccd80c7599792c843b4beb61a0ed55f1ce50f1ba13f8e7"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
