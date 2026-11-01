@@ -1,44 +1,44 @@
 {
-  "version": "1.3.1-beta.5",
+  "version": "1.3.1-beta.6",
   "channel": "beta",
-  "date": "2026-10-31",
-  "notes": "Chamada no lugar certo\n- Volume da transmissão no botão direito: Clique com o botão direito na tela que alguém está transmitindo para mudar o volume dela e o da voz de quem transmite. No celular, toque no quadro de alguém para abrir o volume da pessoa.\n- Quem está na chamada aparece: Abrir o Yoru com uma chamada do grupo já em andamento mostra quem está nela. E entrar de novo na chamada em que você já está não faz mais você sair e voltar.\n- Quadros da chamada alinhados: Na faixa por cima da transmissão, todos os quadros têm a mesma altura, e quem está com a câmera ligada ganha um quadro maior. No chat da chamada, cartões de Pomodoro e imagens cabem no painel.\n- Transmitir do celular: No celular, alterar a transmissão abre a tela do próprio Android para escolher de novo, sem as opções do computador.",
+  "date": "2026-11-01",
+  "notes": "Canal de voz é um lugar\n- Todo mundo se ouve no canal: Numa chamada com várias pessoas, se a conexão entre duas delas falha, o Yoru tenta de novo sozinho em segundos. Antes, alguém podia ver os outros dois enquanto eles não se ouviam.\n- Quem abre o Yoru depois vê quem está lá: O canal de voz do servidor mostra quem está nele assim que você abre o Yoru, e entrar leva você para a mesma conversa, nunca para outra chamada. A chamada só acaba quando não sobra ninguém nela.\n- Entrar e sair do canal: Nos servidores, os botões do canal de voz viraram ícones: entrar no canal de voz e sair do canal. Dá para entrar mesmo com o canal vazio.\n- Amigos online mais rápido: Fechar e abrir o Yoru logo em seguida não deixa mais todo mundo aparecendo offline por alguns minutos.\n- Apoiar o Yoru: Um botão dourado na barra da esquerda leva à página de apoio do Yoru no Ko-fi.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.5\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-beta.5-arm64.dmg\",\"size\":135175390,\"sha256\":\"b0aec95ead0b462d48434e80b600ea53cf299c427d7ff5a90a3551412832180e\",\"notes\":\"Chamada no lugar certo\",\"createdAt\":1793478761925,\"channel\":\"beta\"}",
-        "signature": "f0w5wg80nTq+dE42m9UA1qOMzQIkMLEMRrNuXR52pBtB3E+S5zLUkR4rq6YkDIt62aitTYtu/smHU5sh7Y+8Ag=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.6\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-beta.6-arm64.dmg\",\"size\":135167553,\"sha256\":\"a0c198620bcea21b2df6abe2cc7baf24beabbf58ed6c20915cc57618b6acd75c\",\"notes\":\"Canal de voz é um lugar\",\"createdAt\":1793505440463,\"channel\":\"beta\"}",
+        "signature": "oxyhBOhdtmok8pMZOxW7NWAlhDAw9OYXLLC2/hTDjxKAWYEByXD+crRwjthFiIaUZqWEE45kB2Z3z9Cvi2I/DA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.5/Yoru-1.3.1-beta.5-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.6/Yoru-1.3.1-beta.6-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.5\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-beta.5-x64.dmg\",\"size\":142047187,\"sha256\":\"500768568a52bc83a9bf49e494964ee32559f79a69118ecc649d3f36ebdda52b\",\"notes\":\"Chamada no lugar certo\",\"createdAt\":1793478761553,\"channel\":\"beta\"}",
-        "signature": "dU8b9odevGbWBeK1LyVx7fdb90aTSMh69yB9d0vtLk9sVGVtHP4gV0m9dJCceTc0gJTzG/J6mkNg2qm/LRFKBA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.6\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-beta.6-x64.dmg\",\"size\":142025191,\"sha256\":\"d0575a31cbc7eaed72ec89b00c35743f7a49e1441c0d8b9dc6f0ce20318e1202\",\"notes\":\"Canal de voz é um lugar\",\"createdAt\":1793505440185,\"channel\":\"beta\"}",
+        "signature": "3989mEPqt7dLl7wl82Gx4kq0FkHQV3lrhctHXztd0L/0IfPZ8u47veunEnKUOwoPfDc1w4zvB6Sa3SVee4hFCQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.5/Yoru-1.3.1-beta.5-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.6/Yoru-1.3.1-beta.6-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.5\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1-beta.5.AppImage\",\"size\":141771496,\"sha256\":\"d6ad8086c0cfea81ec160c2623e7d0ee13b49451f32c1da99a6121d9dcdadac0\",\"notes\":\"Chamada no lugar certo\",\"createdAt\":1793478650707,\"channel\":\"beta\"}",
-        "signature": "PJ84khMhuWJpjxFg3VLUNntA6JRgMa/d95iwtdjlHt7o97WJ/LJ1HvNdHWKhDkSJyW1GHpZQIcTKvXBD388EBw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.6\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1-beta.6.AppImage\",\"size\":141763044,\"sha256\":\"0e83342cda7479a5c9bdf523e70d45519f2f87f1f4f148e7b6afefb06aaaabe1\",\"notes\":\"Canal de voz é um lugar\",\"createdAt\":1793505343885,\"channel\":\"beta\"}",
+        "signature": "lOduK57N0fMODg9tPjvnpucsZl1ccBzM1ItHgd25bqREI27lrJaex5aDS0pv/plzxPlk8kq5YGRxuNdMTDlWBQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.5/Yoru-1.3.1-beta.5.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.6/Yoru-1.3.1-beta.6.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.5\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1-beta.5.exe\",\"size\":119997229,\"sha256\":\"504a5e216770cd3c526b58771b1ac3ba5ecb12af94af817d8d64e195936cf31b\",\"notes\":\"Chamada no lugar certo\",\"createdAt\":1793478760713,\"channel\":\"beta\"}",
-        "signature": "qg515wAqNED++LZInaWtctv5U2U5DSGVZG2O+QoXn5coNZf22RWiaoVt3GCa3TvIPWTGGu+vdT1NROJyjxLPCA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.6\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1-beta.6.exe\",\"size\":119997636,\"sha256\":\"fbd1682b0bfa1c0a030eee8a8ba5c5668d0edf0c5af0588211611207d3cf5289\",\"notes\":\"Canal de voz é um lugar\",\"createdAt\":1793505414013,\"channel\":\"beta\"}",
+        "signature": "VNNDLjRzX0Fa/GzvPO8Wraz/xSHouGbzD1jjJGwXXTwV/W/TfPrtgLObN+qc4G1poSfNZ9T64ZSqJNoubDmyCQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.5/Yoru-Setup-1.3.1-beta.5.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.6/Yoru-Setup-1.3.1-beta.6.exe"
     }
   },
   "android": {
-    "version": "1.3.1-beta.5",
-    "versionCode": 1030105,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.5/Yoru-1.3.1-beta.5.apk",
-    "size": 13931812,
-    "sha256": "33b85cc2a4218a0495d5ac422557aeb8586246d5e9a45e86e3acffb0b1982eff"
+    "version": "1.3.1-beta.6",
+    "versionCode": 1030106,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.6/Yoru-1.3.1-beta.6.apk",
+    "size": 13934228,
+    "sha256": "9919772abd20ed4266f24f005e089ebdaee8c49c7d4f17644d4153eb97090936"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
