@@ -1,44 +1,44 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "channel": "stable",
-  "date": "2026-10-30",
-  "notes": "Yoru repaginado\n- Visual novo: A paleta Noite é a nova padrão, com letra nova nos títulos. Os grupos ficam numa linha à esquerda, a página de Amigos junta tudo num lugar e as Configurações ficaram em três grupos, com busca.\n- Servidores de verdade: Canais e categorias, convites com validade, e castigo, expulsar e banir na aba Membros. Canais de voz viraram salas com chat próprio, e o grupo pequeno (só pessoas, chat e uma sala) continua na lista.\n- O Yoru alcança todo mundo: O computador fica ligado ao Yoru online: você vê quem usa o site e o celular, os pedidos chegam e as chamadas que não ligam direto passam por um servidor de repasse, sempre protegidas. No 4G, a chamada fecha bem mais vezes.\n- Chamadas na hora: O toque começa assim que alguém liga. No Android dá para atender com o celular bloqueado, e a chamada que cai tenta voltar sozinha. No fim aparece um resumo.\n- Mensagens com hora marcada: Agende uma mensagem, peça \"Me lembre disso\", mande uma carta noturna ou uma cápsula do tempo. Pelo \"+\" também dá para mandar algo de visualização única.\n- Conversa mais esperta: Encaminhe mensagens, veja o resumo do que perdeu, use /dado, /moeda, /sorteio e /enquete e procure na conversa com filtros.\n- Foco, Pomodoro e agenda: Sessão de foco com pomodoro, salas de Pomodoro nos servidores com o tempo que você quiser, checklist compartilhada e agenda de eventos com \"Tenho interesse\".\n- Perfil do seu jeito: Edite o perfil vendo o cartão como seus amigos veem, com pronomes. Sua atividade mostra jogos e música, e você escolhe quais jogos aparecem.\n- Organize como quiser: Ordem da lista do seu jeito (é só arrastar), pastas de servidores no trilho, ícone do app, texto, zoom e densidade em Aparência.\n- Céu de apoiador: Quem apoia o Yoru no Ko-fi ganha um céu no perfil: Lua, Estrela, Constelação e o Galáctico, um apoio único que nunca expira.\n- Mais seguro e mais leve: Passamos por uma revisão de segurança completa, o celular e o computador não brigam mais pelo histórico e o Yoru gasta bem menos internet.\n- Yoru Oficial de cara nova: A conta oficial ganhou aurora roxa, lua, o Kuro e o 夜 em volta da foto, faixa própria e as abas Avisos e Painel. Os avisos chegam no topo da página de Amigos.",
+  "date": "2026-11-02",
+  "notes": "Seu apoio no Yoru e chamadas em todo lugar\n- Seu apoio, no Yoru: Nova aba Apoio nas Configurações. Apoie pelo Ko-fi e a badge do seu nível aparece sozinha quando o Google do Yoru usa o mesmo e-mail do Ko-fi. Se um mês não chegar, nada muda por 7 dias, e a Yoru te avisa numa conversa que some em 14 dias. 💜\n- Escolha o visual do seu apoio: No editor de perfil, mostre o visual do seu nível, um abaixo ou nenhum.\n- Uma cartinha da Yoru: O botão Apoiar ganhou animação e abre uma carta da Yoru contando o carinho que vai no projeto. Apoiar é opcional: tudo no app continua liberado para todo mundo.\n- Várias transmissões na chamada: A tela escolhida fica grande no palco e as outras viram miniaturas ao vivo, com a grade a um clique. Dá para ocultar a câmera de alguém só para você, sem a pessoa saber.\n- Todos os seus aparelhos tocam: Numa ligação pela internet, o computador e o celular tocam juntos, e a chamada fica com o que você atender. No Android, o Yoru volta sozinho depois de fechar pelos recentes ou reiniciar.\n- Barra da chamada nova: Microfone, Ensurdecer, câmera, tela, Mais e Sair. Ensurdecer desliga o som de todos e o seu microfone num clique (Ctrl+Shift+D). Clique com o botão direito em alguém ou na transmissão para mudar o volume. No Android, dá para transmitir a tela do celular.\n- Canal de voz é um lugar: O canal de voz do servidor mostra quem está nele assim que você abre o Yoru, entrar não toca para ninguém e a chamada só acaba quando não sobra ninguém. Se a conexão entre duas pessoas falha, o Yoru refaz sozinho.\n- Quadros nos servidores: Organize as tarefas do servidor em quadros, com listas e cartões que se arrastam, etiquetas, pessoas, prazo, checklist e conversa em cada cartão.\n- Mensagem guardada: Mandou para quem está offline? Quando a mensagem fica guardada na nuvem ou no PC de alguém, o relógio vira ✓, também nos grupos. As que ainda esperam ficam com o balão apagado, e um ícone na barra de cima mostra quantas estão na fila.\n- Abrir link com o visual do Yoru: Antes de abrir um link no navegador, o Yoru mostra para qual site ele leva. Dá para confiar num site e desfazer em Configurações › Privacidade.\n- Gerenciar armazenamento: Em Configurações › Sistema, veja quanto o Yoru ocupa e libere espaço por conversa ou apagando mídia antiga. As mensagens ficam.\n- Bem mais leve: Com o app parado, o uso do processador caiu de cerca de 15% para 1%. O Yoru no Windows ficou uns 90 MB menor, vídeos e arquivos grandes não travam o resto e o celular abre mais rápido. Ctrl+R reinicia o Yoru.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.0-arm64.dmg\",\"size\":155506034,\"sha256\":\"e5b722d23c0433deffe2c2ad5cdf014ae95cf7c61e8f0bb54075c340ecb20131\",\"notes\":\"Yoru repaginado\",\"createdAt\":1793326542433}",
-        "signature": "XF1ZHkSHHFBLNMJ55juPYoyvfgEZn1UbkbykmyWGBG7ENsESsX37zLYe6onHBArodd9CqHmJQMfFku/JRzVgDw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-arm64.dmg\",\"size\":135243182,\"sha256\":\"45566afcd61e99d9a435568d5fdb304242bc41cb518198fff828318de9032904\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642811769}",
+        "signature": "vvW1oFRqEt5tJnwuU1lvAeNW+8Cg4Dp6IKvhZcb1zLOZieQS7ZvDb7n5zP6BEmnvpaYUQ/AQ1Qq8am5O7kSlDQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0/Yoru-1.3.0-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.0-x64.dmg\",\"size\":162331494,\"sha256\":\"a016426a6a1fe62288717904428d9c3ba99723ad8a4a339da42b6cd0b12b17d3\",\"notes\":\"Yoru repaginado\",\"createdAt\":1793326542091}",
-        "signature": "UEell+26r5lXUyBDpRbUMSmV9idICumDAARohlql2KOmkReX55dxYBxRN+PhV8Sv6QMETsCjtEpaSgTfnQuwBQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-x64.dmg\",\"size\":142073048,\"sha256\":\"137e13d4eeb785bd7fe48331659184c9b58e5162b26db322fdd27253be241323\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642811580}",
+        "signature": "XjS5d+R+enSKpLo/bdVuAqXeZrRKqZNjhBngm6XL9N+WxiTQIGEEiD6iw+4mFkkxNkcNjn+2RMQJp6JU1Aw7Ag=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0/Yoru-1.3.0-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.0.AppImage\",\"size\":152760445,\"sha256\":\"5b882901292197f4569f9eaca39467b057722094410455b4f1b0f727cff24531\",\"notes\":\"Yoru repaginado\",\"createdAt\":1793326415285}",
-        "signature": "G82sDdndodyw7/TfO9S+7RqiS9SqlzG7QQExdThc/PQmbnBAO31WfCHNsuxo+bXn1CkVAuBVTwRckzCoK3DmDw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1.AppImage\",\"size\":141833045,\"sha256\":\"b1c750e66fe535f83fdb4a3b4bfd4e491143b69eacd9a67d84bbd00809ce75ee\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642410291}",
+        "signature": "SYIiK9WjL3KpFJ8oL+2jnv3AZMRUx23W3oFNOBAnHfsNYIRkcH7AUh1+OARf2g/Rn1RVuaVKJhvNMbYiCUBpAQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0/Yoru-1.3.0.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.0\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.0.exe\",\"size\":134020931,\"sha256\":\"4f677207fe3a78523644ba55dcb218affd56a16d992ddd670cd22311698bb981\",\"notes\":\"Yoru repaginado\",\"createdAt\":1793326459049}",
-        "signature": "yj+mN62zdLKIonpxrgVE93OlyvHUrHhjy4JJraT66TNbNqi1aDvj2H/C3tfbbZnhEpB4MkiAlDSc66htf14PCg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1.exe\",\"size\":120071411,\"sha256\":\"b07c09230639666f18ea0d34f12321272cd087a986ada4ff04b2d1f1aa3391e9\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642525191}",
+        "signature": "C1zGPLSg7rdUx5dgPfErEuRPldeRK/iQH8u6wNu2q6CkrUpMhcYxO2HsehJj6zHEtfV/NadcQXStfXYjyxCBAw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0/Yoru-Setup-1.3.0.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-Setup-1.3.1.exe"
     }
   },
   "android": {
-    "version": "1.3.0",
-    "versionCode": 1030099,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.0/Yoru-1.3.0.apk",
-    "size": 13916224,
-    "sha256": "9a30e2e5b61d8814e79762bc0ee7f72b29761aea1c486d1f70f7dfb781d1d67c"
+    "version": "1.3.1",
+    "versionCode": 1030199,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1.apk",
+    "size": 13975036,
+    "sha256": "0172f1ef05579eea14a0be273e005d87581c284513be00c4a733f32ece8c85a6"
   },
   "web": {
     "url": "https://yoruapp.com.br"
