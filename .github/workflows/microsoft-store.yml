@@ -61,7 +61,7 @@ jobs:
           done
           if [ -n "$falta" ]; then echo "::error::Variáveis não cadastradas:$falta (veja o começo deste arquivo)"; exit 1; fi
           case "$YORU_APPX_PUBLISHER" in CN=*) ;; *) echo "::error::YORU_APPX_PUBLISHER começa com CN="; exit 1 ;; esac
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           repository: ${{ env.SOURCE_REPO }}
           ref: ${{ inputs.ref }}
@@ -71,7 +71,7 @@ jobs:
         run: |
           V=$(node -p "require('./package.json').version")
           [ "$V" = "$VERSAO" ] || { echo "::error::O package.json está na versão $V, não $VERSAO."; exit 1; }
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 24
           cache: npm
@@ -87,7 +87,7 @@ jobs:
           "ELECTRON_BUILDER_WINDOWS_KITS_PATH=$($kit.DirectoryName)" >> $env:GITHUB_ENV
       - run: npm run build
       - run: node scripts/dist.mjs --appx
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: microsoft-store-${{ inputs.versao }}${{ inputs.teste && '-teste' || '' }}
           if-no-files-found: error
