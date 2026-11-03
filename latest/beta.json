@@ -1,44 +1,44 @@
 {
-  "version": "1.3.1-beta.7",
+  "version": "1.3.2-beta.1",
   "channel": "beta",
-  "date": "2026-11-01",
-  "notes": "Mais leve e mais claro\n- Abrir link com o visual do Yoru: Ao clicar num link, o Yoru mostra para qual site ele leva antes de abrir no navegador. Dá para marcar \"não perguntar de novo\" para um site, e desfazer em Configurações › Privacidade.\n- Mensagem esperando fica à vista: Quando a pessoa está offline, as mensagens que esperam ficam com o balão mais apagado, e uma frase embaixo diz quantas estão esperando. Elas saem sozinhas quando a pessoa abrir o Yoru.\n- Menos uso do computador parado: Com o Yoru aberto e ninguém mexendo, os enfeites animados param e voltam no próximo movimento. O uso do processador com o app parado caiu de cerca de 15% para 1%.\n- Abrir mais rápido no celular: O Yoru guarda a identificação dos seus contatos e não pergunta de novo ao servidor a cada abertura.\n- Arquivos grandes na chamada: Arquivos recebidos durante uma chamada usam bem menos memória enquanto chegam.",
+  "date": "2026-11-03",
+  "notes": "Quem está na chamada, de onde veio a mensagem\n- Megafone ao lado do nome: Quem está numa sala de voz de um servidor seu ganha um megafone ao lado do nome, na lista, nos membros e em Amigos. Clique para ver a sala, com quantas pessoas, e entrar.\n- Mensagem encaminhada mostra a origem: Uma linha fina acima da mensagem diz quem escreveu e em que canal e servidor, com um clique para ir até lá. Se a origem é uma conversa privada, aparece só “de uma conversa privada”, sem nomes.\n- Transmissões começam na grade: Numa chamada em grupo, a tela que alguém começa a transmitir aparece na grade, ao lado das pessoas. Clique numa tela, câmera ou card para destacar, e clique de novo para voltar. Quem transmite e você não está assistindo mostra o “Assistir” no próprio card.\n- Uma badge ao lado do nome: Nas listas e nas conversas aparece só a badge em destaque (ou a primeira). No perfil continuam todas.\n- Etiquetas com nome nos Quadros: Dê um nome a cada cor das etiquetas de um quadro, como “Arte” ou “Urgente”, e o cartão mostra o nome.\n- Consertos: A fila de mensagens esperando a nuvem também aparece no celular, no alto da lista de conversas. Em Gerenciar armazenamento, a lista de dias da mídia antiga não fecha mais sozinha.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.7\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-beta.7-arm64.dmg\",\"size\":135191056,\"sha256\":\"0e1449a84bc362d8ff0ded7d65090a128a316db6d2ae73d7d3a5d4cb7f4846c2\",\"notes\":\"Mais leve e mais claro\",\"createdAt\":1793538123003,\"channel\":\"beta\"}",
-        "signature": "H/6J5fzhWJXPrm8DgV9m4C08GeU5b6Yy5+5tQUOROGSuvMOWh1+cX5S96lZK1DO6+UrzmXgBT6fJBMFUtOXyCw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.2-beta.1-arm64.dmg\",\"size\":135260144,\"sha256\":\"f39c1f5f40fd427914d3d1b9c1f1730c3a6000192d389262f7f665c43a7d37c7\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715454912,\"channel\":\"beta\"}",
+        "signature": "wbT4YyeNQZyMjMeBIsy8y2UA8Zyonf5s42aCjK2yRJOMnGwaK3q/ChIlFUFSCS6kXClS4K2OzFoHf2YGFdIKDg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.7/Yoru-1.3.1-beta.7-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.7\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-beta.7-x64.dmg\",\"size\":142047966,\"sha256\":\"7b7c2748ec62b5525abe26e0a75d60d700aed5c0feb9356fe5d70255c9ac2b7e\",\"notes\":\"Mais leve e mais claro\",\"createdAt\":1793538122746,\"channel\":\"beta\"}",
-        "signature": "QtGvLXx6KkrPfFl5VWyhF1bZDXiYV0yB0Nbw+lb2SkgHNDgDqiJ+19ddmWYpKTAo/JtOM2ByISUS4qqh/SKkBw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.2-beta.1-x64.dmg\",\"size\":142098453,\"sha256\":\"b458b9c0c6070405229b45776b33fe53c267e3834a818f4d9705a6878377d338\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715454713,\"channel\":\"beta\"}",
+        "signature": "jwuWue1mwA2VTLvhj50vnNkP+CPYd7gdqTrpK0Klidv5YpXqOgLOZuUJ2kQ6I/dWkaAlXqQ44eBf8CvfFKDHBA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.7/Yoru-1.3.1-beta.7-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.7\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1-beta.7.AppImage\",\"size\":141771666,\"sha256\":\"4119211f90f754c4fc32f2566cfd7e62673bd842a097573bd6748b452f22131c\",\"notes\":\"Mais leve e mais claro\",\"createdAt\":1793538001865,\"channel\":\"beta\"}",
-        "signature": "e/hqw7u72UKks9YfJbsr3Kg7yHofsfgJPp0FkkCjMZjWLyhpp8btVvRx3DxwOypLwSKYHEvp6RHrKR2iBI8LAw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.2-beta.1.AppImage\",\"size\":141833158,\"sha256\":\"59cdb45206739db897871a3e90f4913628abea8ef3435e9d9493f1c405515c4c\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715355258,\"channel\":\"beta\"}",
+        "signature": "T7ZNhZV9HGfQy+jBsa+Xx5N/egQc2zUkBrdcWz+QZyKYGAoW6qqCSX+lEiQ2RXndD6MPD6b6cwboJuUpqC1xCg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.7/Yoru-1.3.1-beta.7.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1-beta.7\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1-beta.7.exe\",\"size\":120000642,\"sha256\":\"2bff5cf7cba1a55255b5779ef28b2fd93df92e3cbd9f69130b657c041ab18444\",\"notes\":\"Mais leve e mais claro\",\"createdAt\":1793538116233,\"channel\":\"beta\"}",
-        "signature": "0eFbfjuMh+i9UbVlBlbt6v2UQBcqvzn9CpCyzf400kng3tWMURubk9492vfXAu+XUd3gyfovAUx1LelyMyZWCw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.2-beta.1.exe\",\"size\":120077547,\"sha256\":\"22ea6429d074ae42002ddd89668d6db0a2f80e11c607b96c046ec71f71853a38\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715473017,\"channel\":\"beta\"}",
+        "signature": "znZQPfS43EoF+p9yHXCbbm23ep39/zZWX3Vpd/4nSCQV6myS8Edppmvkl+egmyS5Y3ikK/EP9XahJEJ3WTsyAA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.7/Yoru-Setup-1.3.1-beta.7.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-Setup-1.3.2-beta.1.exe"
     }
   },
   "android": {
-    "version": "1.3.1-beta.7",
-    "versionCode": 1030107,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1-beta.7/Yoru-1.3.1-beta.7.apk",
-    "size": 13937480,
-    "sha256": "4818fc6a0f32867e27e5c957822420d124a5a2620f1d395d75f9d4587954e368"
+    "version": "1.3.2-beta.1",
+    "versionCode": 1030201,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1.apk",
+    "size": 13979560,
+    "sha256": "3cb0299660edcd4d7cb3814d2b6f5d16f1ef18f92020dfe28c8e33ca2e8d8568"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
