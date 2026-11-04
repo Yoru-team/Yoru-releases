@@ -1,44 +1,44 @@
 {
-  "version": "1.3.2-beta.1",
+  "version": "1.3.2-beta.2",
   "channel": "beta",
-  "date": "2026-11-03",
-  "notes": "Quem está na chamada, de onde veio a mensagem\n- Megafone ao lado do nome: Quem está numa sala de voz de um servidor seu ganha um megafone ao lado do nome, na lista, nos membros e em Amigos. Clique para ver a sala, com quantas pessoas, e entrar.\n- Mensagem encaminhada mostra a origem: Uma linha fina acima da mensagem diz quem escreveu e em que canal e servidor, com um clique para ir até lá. Se a origem é uma conversa privada, aparece só “de uma conversa privada”, sem nomes.\n- Transmissões começam na grade: Numa chamada em grupo, a tela que alguém começa a transmitir aparece na grade, ao lado das pessoas. Clique numa tela, câmera ou card para destacar, e clique de novo para voltar. Quem transmite e você não está assistindo mostra o “Assistir” no próprio card.\n- Uma badge ao lado do nome: Nas listas e nas conversas aparece só a badge em destaque (ou a primeira). No perfil continuam todas.\n- Etiquetas com nome nos Quadros: Dê um nome a cada cor das etiquetas de um quadro, como “Arte” ou “Urgente”, e o cartão mostra o nome.\n- Consertos: A fila de mensagens esperando a nuvem também aparece no celular, no alto da lista de conversas. Em Gerenciar armazenamento, a lista de dias da mídia antiga não fecha mais sozinha.",
+  "date": "2026-11-04",
+  "notes": "Moderar na voz e achar a mensagem antiga\n- Moderar quem está na chamada: Quem cria o servidor e os administradores podem silenciar o microfone, ensurdecer ou tirar alguém da chamada pelo menu da pessoa, na seção “Na chamada”, mesmo sem estar na sala. Quem recebe vê quem fez.\n- A mensagem certa, mesmo antiga: Clicar numa encaminhada, numa citação ou num resultado da busca abre a conversa na mensagem, mesmo que ela já tenha ido para o histórico guardado.\n- Arrastar conversas onde você quiser: Soltar uma conversa no espaço entre outras, ou no título da lista, leva ela para lá, e a lista passa para a sua ordem.\n- Status de cada pessoa nos servidores: A lista de membros mostra quem está Ausente ou em Não perturbe, e o seu status aparece como você escolheu.\n- Consertos: Com o zoom do app em 80%, os ícones dos servidores ficam do tamanho certo. “Em chamada” não quebra mais em duas linhas no seu cartão. Nos Quadros, a escolha da lista e do canal usa o visual do app.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.2-beta.1-arm64.dmg\",\"size\":135260144,\"sha256\":\"f39c1f5f40fd427914d3d1b9c1f1730c3a6000192d389262f7f665c43a7d37c7\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715454912,\"channel\":\"beta\"}",
-        "signature": "wbT4YyeNQZyMjMeBIsy8y2UA8Zyonf5s42aCjK2yRJOMnGwaK3q/ChIlFUFSCS6kXClS4K2OzFoHf2YGFdIKDg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.2\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.2-beta.2-arm64.dmg\",\"size\":135271939,\"sha256\":\"ffb65851c6d5bf2ca0e9acf8682df9d9177311a2ceaca8de0b4d454c65fb585e\",\"notes\":\"Moderar na voz e achar a mensagem antiga\",\"createdAt\":1793825636647,\"channel\":\"beta\"}",
+        "signature": "LlOzM8naSB25g7Tg+EYkcvl6pxRhLw6Z4NguqgX2CvVQ/qAjoHZpvdTP3JZR8c4OOBx63RRQfaxQkqRJv+xxBQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.2/Yoru-1.3.2-beta.2-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.2-beta.1-x64.dmg\",\"size\":142098453,\"sha256\":\"b458b9c0c6070405229b45776b33fe53c267e3834a818f4d9705a6878377d338\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715454713,\"channel\":\"beta\"}",
-        "signature": "jwuWue1mwA2VTLvhj50vnNkP+CPYd7gdqTrpK0Klidv5YpXqOgLOZuUJ2kQ6I/dWkaAlXqQ44eBf8CvfFKDHBA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.2\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.2-beta.2-x64.dmg\",\"size\":142106597,\"sha256\":\"ac6d432a51bf161e03700f2aabf86ffc7ec1e9973dd24e150c013e4fee86de2d\",\"notes\":\"Moderar na voz e achar a mensagem antiga\",\"createdAt\":1793825636430,\"channel\":\"beta\"}",
+        "signature": "WRL7bKr2EfSwq2dQJeXmm5Yypk9iulBR5jFqZ6BCGP5eHybxQcYH5SYJM+lOQ25ZZ+OYeNQIGTb6OexXRfr+Dg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.2/Yoru-1.3.2-beta.2-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.2-beta.1.AppImage\",\"size\":141833158,\"sha256\":\"59cdb45206739db897871a3e90f4913628abea8ef3435e9d9493f1c405515c4c\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715355258,\"channel\":\"beta\"}",
-        "signature": "T7ZNhZV9HGfQy+jBsa+Xx5N/egQc2zUkBrdcWz+QZyKYGAoW6qqCSX+lEiQ2RXndD6MPD6b6cwboJuUpqC1xCg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.2\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.2-beta.2.AppImage\",\"size\":141840685,\"sha256\":\"4503331f5c029aa3688b8ec9fdb900da8a919723fc0b3264eb14f44e3a2436dc\",\"notes\":\"Moderar na voz e achar a mensagem antiga\",\"createdAt\":1793825538323,\"channel\":\"beta\"}",
+        "signature": "vESy38tgs9yQzJjRyPriyW5XWM6Kp63u/iBclGOL4UQOEGU+0L3lBhr0VJqfL1T8g0Xn3el+PXntBHJEsxRLBg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.2/Yoru-1.3.2-beta.2.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.1\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.2-beta.1.exe\",\"size\":120077547,\"sha256\":\"22ea6429d074ae42002ddd89668d6db0a2f80e11c607b96c046ec71f71853a38\",\"notes\":\"Quem está na chamada, de onde veio a mensagem\",\"createdAt\":1793715473017,\"channel\":\"beta\"}",
-        "signature": "znZQPfS43EoF+p9yHXCbbm23ep39/zZWX3Vpd/4nSCQV6myS8Edppmvkl+egmyS5Y3ikK/EP9XahJEJ3WTsyAA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.2\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.2-beta.2.exe\",\"size\":120090777,\"sha256\":\"2aed47eac664654969800b22f13785639d4870dad1e0f651ba7a72142c7cbf62\",\"notes\":\"Moderar na voz e achar a mensagem antiga\",\"createdAt\":1793825638393,\"channel\":\"beta\"}",
+        "signature": "4e7Hv72DYC6paPK9j2FDDrbOODeExEEjQSb7Gh/WYlouDOPF9W277EJe0lOjJmHePXvZz/NbRjAFMZUCmOh7BA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-Setup-1.3.2-beta.1.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.2/Yoru-Setup-1.3.2-beta.2.exe"
     }
   },
   "android": {
-    "version": "1.3.2-beta.1",
-    "versionCode": 1030201,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.1/Yoru-1.3.2-beta.1.apk",
-    "size": 13979560,
-    "sha256": "3cb0299660edcd4d7cb3814d2b6f5d16f1ef18f92020dfe28c8e33ca2e8d8568"
+    "version": "1.3.2-beta.2",
+    "versionCode": 1030202,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.2/Yoru-1.3.2-beta.2.apk",
+    "size": 13984504,
+    "sha256": "5b4998a5f9878900f7186808c0d302e3cb4e3a6b3a01640169c5ebaac092ba17"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
