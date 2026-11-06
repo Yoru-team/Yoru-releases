@@ -1,44 +1,44 @@
 {
-  "version": "1.3.2-beta.4",
+  "version": "1.3.2-beta.5",
   "channel": "beta",
-  "date": "2026-11-05",
-  "notes": "Agenda de verdade e chamada que não atrapalha\n- Eventos do servidor do seu jeito: Um clique num dia da agenda mostra o que tem nele, e um segundo clique cria o evento. Clicando num evento você vê tudo: horário, detalhes, quem tem interesse, guardar no seu calendário e apagar. O evento novo fica só na agenda; avise nos canais que você marcar, na hora ou depois.\n- Cada um com a largura que gosta: Em Aparência, escolha a largura da conversa: Compacta, Confortável ou Toda. As Configurações não mudam mais de tamanho entre as abas, e abrir a lista de membros não mexe nos botões de cima.\n- Botão direito nas mensagens: Clique com o botão direito numa mensagem ou imagem: as reações aparecem no topo, com um + para qualquer emoji, e embaixo responder, copiar, encaminhar e o resto.\n- Chamada e transmissão: Com a chamada recolhida, uma pílula pequena perto do seu cartão mostra quem está nela e o tempo. Com uma tela só sendo transmitida, as pessoas ficam numa coluna ao lado. O botão i na tela mostra a qualidade que está chegando e deixa escolher entre nitidez e fluidez.\n- Servidor novo em três passos: Escolha um modelo (Amigos, Jogos, Estudo ou do zero), veja a prévia com o nome e o ícone e decida quem pode convidar.\n- Consertos: A agenda e a lista de membros não quebram mais com a coluna estreita. Pastas no trilho mostram o nome inteiro ao passar o mouse. Com a lista de conversas escondida, o ícone do Yoru no trilho mostra as não lidas.",
+  "date": "2026-11-06",
+  "notes": "A chamada encolhe até você\n- Pílula da chamada fácil de achar: Com a chamada recolhida, a pílula fica verde de “ao vivo”, mostra quem está nela e acende quando alguém fala. Ela começa no canto de baixo, fora da lista de conversas, e dá para arrastar para qualquer canto: ela gruda no mais perto e lembra onde você deixou.\n- Dá para ver para onde a chamada foi: Ao ir para a tela inicial, a chamada encolhe até a pílula; ao voltar, ela cresce a partir dela. Com menos movimento ou no modo Low-Spec, a troca é na hora.\n- Consertos no celular: As janelas, como a de criar evento, não ficam mais por baixo da barra de status do Android. Na agenda, a dica do dia escolhido explica que é só tocar de novo para criar um evento.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.4\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.2-beta.4-arm64.dmg\",\"size\":135303854,\"sha256\":\"2585451f4036f4fe0eb797bb092123720587546111416ffadac821ab08e0fc62\",\"notes\":\"Agenda de verdade e chamada que não atrapalha\",\"createdAt\":1793888517172,\"channel\":\"beta\"}",
-        "signature": "UOMny2iEqEQ3Som+KSoop0wXnNBO6lA/2sOareAzLFVemEOJ1uv0iRbcNjHT5VcNvprwAfnk433lK18AsfJyDA=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.2-beta.5-arm64.dmg\",\"size\":135295313,\"sha256\":\"4511f9a6e4f0b683292d793135da4065201e4ae33124cba1218e8588e314685b\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935985135,\"channel\":\"beta\"}",
+        "signature": "tOviIJA9dlmVyuLmFqtdwRay1A9+l+R/7HLQbYnrX8GQqbNMz5xjBBgFhUmTdOWhGaQBW4hK/J7ZY4p71bR8Dg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.4/Yoru-1.3.2-beta.4-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.4\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.2-beta.4-x64.dmg\",\"size\":142125820,\"sha256\":\"4245cda58b4cdafbfa1277a32578584842ee3eee70aa7e9245ca5c47935f8c61\",\"notes\":\"Agenda de verdade e chamada que não atrapalha\",\"createdAt\":1793888517017,\"channel\":\"beta\"}",
-        "signature": "Zti0W7NOzG2PBG07ElqmBZg2mwM/rfLspF3NsIldxMevFWKKUevY+x0zTrG8Rb0HBkXLPgAl7VgD0Sgx6+UzAQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.2-beta.5-x64.dmg\",\"size\":142115693,\"sha256\":\"4fbcb23d71957b062161a9f1eee5c41ee9daacde28c9b36b5f42585104f742e6\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935984918,\"channel\":\"beta\"}",
+        "signature": "0VFJvPdYvlHVGS4UMFs8iI5khiDDcnLkDpUDzfTCdn0kETEKVabSDs625ChmwNiLha18rkLEM7pQLTXApumgCg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.4/Yoru-1.3.2-beta.4-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.4\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.2-beta.4.AppImage\",\"size\":141865340,\"sha256\":\"dc58016b6b1a1de1617440500bfa02e2cb499b2e2ce90ca9b14ff46d3522b352\",\"notes\":\"Agenda de verdade e chamada que não atrapalha\",\"createdAt\":1793888407971,\"channel\":\"beta\"}",
-        "signature": "mO9n3jon+QnDqliibg0zFQWNlAbDpf6l8MLzYxxYMK6Ad1nlLYHW2R2/pgZF7MLKYrDwZwVYlU9HBMZrsuGLDQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.2-beta.5.AppImage\",\"size\":141865830,\"sha256\":\"941be8765017bd3899ac4f674e87835832ff0e1d34e82bfdb4ed37a0f92932c3\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935902745,\"channel\":\"beta\"}",
+        "signature": "pndWNDrQYH6JBEIxChSoJy8TJeOg9BreH9J7b++V3CZ0U0kEZDstsZA8hGKZalVD6TnECTU+SmZK0R6Yu/1+BQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.4/Yoru-1.3.2-beta.4.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.4\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.2-beta.4.exe\",\"size\":120132427,\"sha256\":\"882e352573df47bcca7ccde1b61b337a2bf6c028390dc23c75f824a5b744e876\",\"notes\":\"Agenda de verdade e chamada que não atrapalha\",\"createdAt\":1793888740126,\"channel\":\"beta\"}",
-        "signature": "i2iPYl4ZQZY/3eKtJq2DOhXMPYfgdRLgu0iVuQAn611PCEmLds29WNC0qT5Of1JLeD3WmCUOuyQKubjqRzJkBw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.2-beta.5.exe\",\"size\":120138905,\"sha256\":\"5243515f49fe9b28c35cd54e36da6995f8aece5b77c58f8d915f6b58c11b9a6b\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935976945,\"channel\":\"beta\"}",
+        "signature": "+POZ3jNt0A4LD/WedXjDClvTKwf7Gd9H0tN8IU0XsOkQNqjXbgLHKAWOlAZ9xmI9i9XsxLSswkqypf2Zqa9jAw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.4/Yoru-Setup-1.3.2-beta.4.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-Setup-1.3.2-beta.5.exe"
     }
   },
   "android": {
-    "version": "1.3.2-beta.4",
-    "versionCode": 1030204,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.4/Yoru-1.3.2-beta.4.apk",
-    "size": 13998932,
-    "sha256": "938cfb3c9cf3c5b50a8ca5502ad95bb69129efcb0e6861a8ffbd34c8996c3b28"
+    "version": "1.3.2-beta.5",
+    "versionCode": 1030205,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5.apk",
+    "size": 14001424,
+    "sha256": "e8e6e89c5b6a66d0c0ea3a41f56ab8cdda306dd8ac23c40296e5b5cba8cc054b"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
