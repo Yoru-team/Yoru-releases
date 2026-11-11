@@ -1,44 +1,44 @@
 {
-  "version": "1.3.2-beta.5",
+  "version": "1.4.0-beta.1",
   "channel": "beta",
-  "date": "2026-11-06",
-  "notes": "A chamada encolhe até você\n- Pílula da chamada fácil de achar: Com a chamada recolhida, a pílula fica verde de “ao vivo”, mostra quem está nela e acende quando alguém fala. Ela começa no canto de baixo, fora da lista de conversas, e dá para arrastar para qualquer canto: ela gruda no mais perto e lembra onde você deixou.\n- Dá para ver para onde a chamada foi: Ao ir para a tela inicial, a chamada encolhe até a pílula; ao voltar, ela cresce a partir dela. Com menos movimento ou no modo Low-Spec, a troca é na hora.\n- Consertos no celular: As janelas, como a de criar evento, não ficam mais por baixo da barra de status do Android. Na agenda, a dica do dia escolhido explica que é só tocar de novo para criar um evento.",
+  "date": "2026-11-11",
+  "notes": "As novidades das betas de volta, com prazos na agenda\n- Tudo das betas 1.3.2 de volta: A 1.3.2 estável saiu só com os consertos de convite e de eco. Esta beta traz de volta tudo o que estava nas \n- Prazos dos cartões na agenda: Os cartões dos Quadros com prazo aparecem no Calendário, com os atrasados no topo. Dá para ver só os eventos, \n- Chamada recolhida no pé da coluna: Quando você sai da tela da chamada, ela vira um painel no pé da lista, com o nome e o tempo, para voltar ou \n- Com os consertos da 1.3.2: Convites pelo celular e pelo site e transmissão de tela sem a sua voz de volta também estão aqui.",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.2-beta.5-arm64.dmg\",\"size\":135295313,\"sha256\":\"4511f9a6e4f0b683292d793135da4065201e4ae33124cba1218e8588e314685b\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935985135,\"channel\":\"beta\"}",
-        "signature": "tOviIJA9dlmVyuLmFqtdwRay1A9+l+R/7HLQbYnrX8GQqbNMz5xjBBgFhUmTdOWhGaQBW4hK/J7ZY4p71bR8Dg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.4.0-beta.1\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.4.0-beta.1-arm64.dmg\",\"size\":135304697,\"sha256\":\"7f88776f5344025c7a4e231b8da2699e7966296d26f5e22bfb200ea77f117981\",\"notes\":\"As novidades das betas de volta, com prazos na agenda\",\"createdAt\":1794400271427,\"channel\":\"beta\"}",
+        "signature": "M2/S2NBjyRzsam3HOXJZXZyH79oU1/5w3TYkAoigWF8wEFJO6rjMtJp016lSNDvLPfqe6agVX3gaicaDGiLlCw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.4.0-beta.1/Yoru-1.4.0-beta.1-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.2-beta.5-x64.dmg\",\"size\":142115693,\"sha256\":\"4fbcb23d71957b062161a9f1eee5c41ee9daacde28c9b36b5f42585104f742e6\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935984918,\"channel\":\"beta\"}",
-        "signature": "0VFJvPdYvlHVGS4UMFs8iI5khiDDcnLkDpUDzfTCdn0kETEKVabSDs625ChmwNiLha18rkLEM7pQLTXApumgCg=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.4.0-beta.1\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.4.0-beta.1-x64.dmg\",\"size\":142146604,\"sha256\":\"6657e1780bef3383f062d2ed57ae4915fbd07ce1052fc76dacad7cef7922d3b0\",\"notes\":\"As novidades das betas de volta, com prazos na agenda\",\"createdAt\":1794400271268,\"channel\":\"beta\"}",
+        "signature": "j91G4onRJa6h8DkbUVUgyJJb4Ohpsn3NtvW3FtlvudyDocWTifiA2QmGcrMmuMrsjFqevcT0U2jgroQ5wLF+CQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.4.0-beta.1/Yoru-1.4.0-beta.1-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.2-beta.5.AppImage\",\"size\":141865830,\"sha256\":\"941be8765017bd3899ac4f674e87835832ff0e1d34e82bfdb4ed37a0f92932c3\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935902745,\"channel\":\"beta\"}",
-        "signature": "pndWNDrQYH6JBEIxChSoJy8TJeOg9BreH9J7b++V3CZ0U0kEZDstsZA8hGKZalVD6TnECTU+SmZK0R6Yu/1+BQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.4.0-beta.1\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.4.0-beta.1.AppImage\",\"size\":141866064,\"sha256\":\"69cf60ed3e278dc3b3acd891d1cae6bda4eaa47d24f2e1c8d439497be56fa126\",\"notes\":\"As novidades das betas de volta, com prazos na agenda\",\"createdAt\":1794400145055,\"channel\":\"beta\"}",
+        "signature": "DWA4l6ZZpk72n70OJZ/tIOzmNtUYWDhLwEbC17MVuvxS7ZycorFndsM3oeK95sBJJu4CIAjXazkvDOMMWsSPBg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.4.0-beta.1/Yoru-1.4.0-beta.1.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2-beta.5\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.2-beta.5.exe\",\"size\":120138905,\"sha256\":\"5243515f49fe9b28c35cd54e36da6995f8aece5b77c58f8d915f6b58c11b9a6b\",\"notes\":\"A chamada encolhe até você\",\"createdAt\":1793935976945,\"channel\":\"beta\"}",
-        "signature": "+POZ3jNt0A4LD/WedXjDClvTKwf7Gd9H0tN8IU0XsOkQNqjXbgLHKAWOlAZ9xmI9i9XsxLSswkqypf2Zqa9jAw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.4.0-beta.1\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.4.0-beta.1.exe\",\"size\":120147550,\"sha256\":\"f32cba4f6961ddf7808a446612d2b0ca7c37c9b9b178a512485ebe65e8bfb3f5\",\"notes\":\"As novidades das betas de volta, com prazos na agenda\",\"createdAt\":1794400276900,\"channel\":\"beta\"}",
+        "signature": "qz2NzyrrIjmINtxPKfgX2+OO3Btr2Avl5OcyyFwWh1kGAoFz+UpB2FT9BG1VjG3taci0s4clvbfubAlaJT3cBQ=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-Setup-1.3.2-beta.5.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.4.0-beta.1/Yoru-Setup-1.4.0-beta.1.exe"
     }
   },
   "android": {
-    "version": "1.3.2-beta.5",
-    "versionCode": 1030205,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2-beta.5/Yoru-1.3.2-beta.5.apk",
-    "size": 14001424,
-    "sha256": "e8e6e89c5b6a66d0c0ea3a41f56ab8cdda306dd8ac23c40296e5b5cba8cc054b"
+    "version": "1.4.0-beta.1",
+    "versionCode": 1040001,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.4.0-beta.1/Yoru-1.4.0-beta.1.apk",
+    "size": 14006432,
+    "sha256": "39ee77d632850e7fd2cc0ae091ca92a5f721975b72a6046a2ae66268cce39e32"
   },
   "web": {
     "url": "https://beta.yoruapp.com.br"
