@@ -1,44 +1,44 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "channel": "stable",
-  "date": "2026-11-02",
-  "notes": "Seu apoio no Yoru e chamadas em todo lugar\n- Seu apoio, no Yoru: Nova aba Apoio nas Configurações. Apoie pelo Ko-fi e a badge do seu nível aparece sozinha quando o Google do Yoru usa o mesmo e-mail do Ko-fi. Se um mês não chegar, nada muda por 7 dias, e a Yoru te avisa numa conversa que some em 14 dias. 💜\n- Escolha o visual do seu apoio: No editor de perfil, mostre o visual do seu nível, um abaixo ou nenhum.\n- Uma cartinha da Yoru: O botão Apoiar ganhou animação e abre uma carta da Yoru contando o carinho que vai no projeto. Apoiar é opcional: tudo no app continua liberado para todo mundo.\n- Várias transmissões na chamada: A tela escolhida fica grande no palco e as outras viram miniaturas ao vivo, com a grade a um clique. Dá para ocultar a câmera de alguém só para você, sem a pessoa saber.\n- Todos os seus aparelhos tocam: Numa ligação pela internet, o computador e o celular tocam juntos, e a chamada fica com o que você atender. No Android, o Yoru volta sozinho depois de fechar pelos recentes ou reiniciar.\n- Barra da chamada nova: Microfone, Ensurdecer, câmera, tela, Mais e Sair. Ensurdecer desliga o som de todos e o seu microfone num clique (Ctrl+Shift+D). Clique com o botão direito em alguém ou na transmissão para mudar o volume. No Android, dá para transmitir a tela do celular.\n- Canal de voz é um lugar: O canal de voz do servidor mostra quem está nele assim que você abre o Yoru, entrar não toca para ninguém e a chamada só acaba quando não sobra ninguém. Se a conexão entre duas pessoas falha, o Yoru refaz sozinho.\n- Quadros nos servidores: Organize as tarefas do servidor em quadros, com listas e cartões que se arrastam, etiquetas, pessoas, prazo, checklist e conversa em cada cartão.\n- Mensagem guardada: Mandou para quem está offline? Quando a mensagem fica guardada na nuvem ou no PC de alguém, o relógio vira ✓, também nos grupos. As que ainda esperam ficam com o balão apagado, e um ícone na barra de cima mostra quantas estão na fila.\n- Abrir link com o visual do Yoru: Antes de abrir um link no navegador, o Yoru mostra para qual site ele leva. Dá para confiar num site e desfazer em Configurações › Privacidade.\n- Gerenciar armazenamento: Em Configurações › Sistema, veja quanto o Yoru ocupa e libere espaço por conversa ou apagando mídia antiga. As mensagens ficam.\n- Bem mais leve: Com o app parado, o uso do processador caiu de cerca de 15% para 1%. O Yoru no Windows ficou uns 90 MB menor, vídeos e arquivos grandes não travam o resto e o celular abre mais rápido. Ctrl+R reinicia o Yoru.",
+  "date": "2026-11-11",
+  "notes": "Convites no celular e transmissão sem eco\n- Entrar em servidores pelo celular e pelo site: O botão \"Entrar\" do convite e o código do convite agora funcionam no app do celular e no site. Antes aparecia \n- Convites também pela conexão online: No computador, o convite chega a quem convidou mesmo quando os dois não se acham pela rede direta.\n- Transmissão de tela sem a sua voz de volta: Quem assistia a uma tela transmitida com o áudio do computador podia ouvir a própria voz. Agora o som da ",
   "platforms": {
     "darwin-arm64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.1-arm64.dmg\",\"size\":135243182,\"sha256\":\"45566afcd61e99d9a435568d5fdb304242bc41cb518198fff828318de9032904\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642811769}",
-        "signature": "vvW1oFRqEt5tJnwuU1lvAeNW+8Cg4Dp6IKvhZcb1zLOZieQS7ZvDb7n5zP6BEmnvpaYUQ/AQ1Qq8am5O7kSlDQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2\",\"platform\":\"darwin-arm64\",\"fileName\":\"Yoru-1.3.2-arm64.dmg\",\"size\":135251017,\"sha256\":\"a2ee42e6d332fa7d68c814bfd02d2c50e799f4a4945bf3b0c629574e1842bd58\",\"notes\":\"Convites no celular e transmissão sem eco\",\"createdAt\":1794399079634}",
+        "signature": "w/V+dDLCmZG8SpuYGbaI6Hv9j41l3IhVNI8QvA9uis1l00HnlaFXFUdSLIh9qkPNN6rN23u4TESe0vvnLY/nBg=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1-arm64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2/Yoru-1.3.2-arm64.dmg"
     },
     "darwin-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.1-x64.dmg\",\"size\":142073048,\"sha256\":\"137e13d4eeb785bd7fe48331659184c9b58e5162b26db322fdd27253be241323\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642811580}",
-        "signature": "XjS5d+R+enSKpLo/bdVuAqXeZrRKqZNjhBngm6XL9N+WxiTQIGEEiD6iw+4mFkkxNkcNjn+2RMQJp6JU1Aw7Ag=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2\",\"platform\":\"darwin-x64\",\"fileName\":\"Yoru-1.3.2-x64.dmg\",\"size\":142080902,\"sha256\":\"e39f71a4d2f45c7294bcac8ad03ca25921159638c526e3dda202752c34a1a855\",\"notes\":\"Convites no celular e transmissão sem eco\",\"createdAt\":1794399079420}",
+        "signature": "KSHU8eya4yVF+x6gkau1X2LsNzqbVIqIT7sMJL4IKqFED3ARZ/pvX5VgOQlI3Osdb6xVX2ko/2xeFvQ9Esh+Aw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1-x64.dmg"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2/Yoru-1.3.2-x64.dmg"
     },
     "linux-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.1.AppImage\",\"size\":141833045,\"sha256\":\"b1c750e66fe535f83fdb4a3b4bfd4e491143b69eacd9a67d84bbd00809ce75ee\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642410291}",
-        "signature": "SYIiK9WjL3KpFJ8oL+2jnv3AZMRUx23W3oFNOBAnHfsNYIRkcH7AUh1+OARf2g/Rn1RVuaVKJhvNMbYiCUBpAQ=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2\",\"platform\":\"linux-x64\",\"fileName\":\"Yoru-1.3.2.AppImage\",\"size\":141833364,\"sha256\":\"8ea0b7e02b7274d2a1404e770099481a8787e784a39c5b1749e8de4b4e99154c\",\"notes\":\"Convites no celular e transmissão sem eco\",\"createdAt\":1794398935588}",
+        "signature": "LWQW/MXyibkS4LPKztfd3RMYtUlRyYxsxgjtYsfxMeZJrEqAtmT2w0atWQu52mDxJb0Qm7AuZKsPEsRVanhkDA=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1.AppImage"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2/Yoru-1.3.2.AppImage"
     },
     "win32-x64": {
       "update": {
-        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.1\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.1.exe\",\"size\":120071411,\"sha256\":\"b07c09230639666f18ea0d34f12321272cd087a986ada4ff04b2d1f1aa3391e9\",\"notes\":\"Seu apoio no Yoru e chamadas em todo lugar\",\"createdAt\":1793642525191}",
-        "signature": "C1zGPLSg7rdUx5dgPfErEuRPldeRK/iQH8u6wNu2q6CkrUpMhcYxO2HsehJj6zHEtfV/NadcQXStfXYjyxCBAw=="
+        "manifest": "{\"app\":\"telacord\",\"version\":\"1.3.2\",\"platform\":\"win32-x64\",\"fileName\":\"Yoru-Setup-1.3.2.exe\",\"size\":120071690,\"sha256\":\"fa4867466f1793c92ee71cd6733d48aeaae8bb0f1848ce7fc8470a96a7a8069b\",\"notes\":\"Convites no celular e transmissão sem eco\",\"createdAt\":1794399058491}",
+        "signature": "uI6ndFZuqAi+Bn1dWvJ/jcT6uPd2MEvrjGsR65WXN4wAD8XiPkexazXyM8nQlfCsGfH4fvTk9ejDuQaOI7W2Cw=="
       },
-      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-Setup-1.3.1.exe"
+      "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2/Yoru-Setup-1.3.2.exe"
     }
   },
   "android": {
-    "version": "1.3.1",
-    "versionCode": 1030199,
-    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.1/Yoru-1.3.1.apk",
-    "size": 13975036,
-    "sha256": "0172f1ef05579eea14a0be273e005d87581c284513be00c4a733f32ece8c85a6"
+    "version": "1.3.2",
+    "versionCode": 1030299,
+    "url": "https://github.com/EmannuelVitor/Yoru-releases/releases/download/v1.3.2/Yoru-1.3.2.apk",
+    "size": 13978108,
+    "sha256": "6f097151814a329005d69d323afcdbcdda18973168e925840c9c1a2265230682"
   },
   "web": {
     "url": "https://yoruapp.com.br"
